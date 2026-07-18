@@ -203,6 +203,35 @@
   .brief a:hover { color: var(--accent); }
   .hide-cat { display: none !important; }
 
+  /* ============ 热搜面板 ============ */
+  .hot { margin-bottom: 34px; }
+  .hot-title {
+    font-family: var(--serif); font-size: 19px; font-weight: 900;
+    display: flex; align-items: baseline; gap: 12px; margin-bottom: 16px;
+  }
+  .hot-title span { font-size: 12px; font-family: var(--sans); font-weight: 400; color: var(--faint); letter-spacing: 1px; }
+  .hot-cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  .hot-col {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+    padding: 18px 18px 12px; box-shadow: 0 1px 3px rgba(32,29,24,.04);
+  }
+  .hot-pf {
+    font-size: 13px; font-weight: 700; letter-spacing: 1px; margin-bottom: 10px;
+    padding-bottom: 9px; border-bottom: 2px solid var(--text); display: flex; justify-content: space-between; align-items: baseline;
+  }
+  .hot-pf i { font-style: normal; font-size: 10.5px; color: var(--faint); font-weight: 400; }
+  .hot-item {
+    display: flex; gap: 9px; align-items: baseline; padding: 6px 0;
+    border-bottom: 1px dashed var(--border); font-size: 13.5px;
+  }
+  .hot-item:last-child { border-bottom: none; }
+  .hot-rank { flex: none; width: 16px; font-family: var(--serif); font-weight: 900; font-size: 13px; color: var(--faint); text-align: center; }
+  .hot-item:nth-child(-n+3) .hot-rank { color: var(--accent); }
+  .hot-item a { flex: 1; min-width: 0; color: var(--text); text-decoration: none; line-height: 1.55; }
+  .hot-item a:hover { color: var(--accent); }
+  .hot-heat { flex: none; font-size: 11px; color: var(--faint); font-variant-numeric: tabular-nums; }
+  @media (max-width: 720px) { .hot-cols { grid-template-columns: 1fr; } }
+
   footer { text-align: center; padding: 40px 20px 60px; color: var(--faint); font-size: 12.5px; line-height: 2.2; border-top: 1px solid var(--border); max-width: 860px; margin: 0 auto; }
   footer b { color: var(--dim); }
   .updated { font-variant-numeric: tabular-nums; }
@@ -402,6 +431,24 @@ async function render(date) {
       <h2>${fmtDate(date).split("·")[0]}</h2>
       <p class="sub">来源：${srcs.join(" · ")}</p>
     </div>`;
+
+  // 全网热搜面板
+  if (ed.hot && Object.keys(ed.hot).length) {
+    html += `<section class="hot reveal">
+      <div class="hot-title">🔥 全网热搜 <span>每小时身边人在聊什么 · 点击直达</span></div>
+      <div class="hot-cols">` +
+      Object.entries(ed.hot).map(([pf, lst]) => `
+        <div class="hot-col">
+          <div class="hot-pf">${esc(pf)}热搜 <i>TOP ${lst.length}</i></div>
+          ${lst.map((it, i) => `
+            <div class="hot-item">
+              <span class="hot-rank">${i + 1}</span>
+              <a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.t)}</a>
+              ${it.heat ? `<span class="hot-heat">${esc(it.heat)}</span>` : ""}
+            </div>`).join("")}
+        </div>`).join("") +
+      `</div></section>`;
+  }
 
   picks.forEach((it, i) => {
     const rank = `<div class="rank">${CN_NUM[Math.min(i, CN_NUM.length - 1)]}</div>`;

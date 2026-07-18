@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-07-16"]={
  "date": "2026-07-16",
- "updated": "11:00",
+ "updated": "12:01",
  "items": [
   {
    "t": "24.98 万元，新一代理想 L6 上市：51kWh 大电池、旗舰芯片下放，开始补操控这一课",

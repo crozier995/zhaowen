@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-07-17"]={
  "date": "2026-07-17",
- "updated": "11:00",
+ "updated": "12:01",
  "items": [
   {
    "t": "国区个人 11 元 / 月 → 12 元 / 月，苹果 Apple Music 订阅全球多地涨价",
@@ -294,7 +294,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-07-17"]={
    "pick": 7
   },
   {
-   "t": "不听劝的阶跃闯进手机战场，造一台为人机共生的终端｜WAIC",
+   "t": "不听劝的阶跃闯进手机战场，造一台为人机共生的终端｜WAIC 2026",
    "url": "https://www.ifanr.com/1672281?utm_source=rss&utm_medium=rss&utm_campaign=",
    "src": "爱范儿",
    "cat": "科技",
@@ -486,6 +486,16 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-07-17"]={
    "img": "data/img/2026-07-17_47.jpg",
    "comment": "这条值得每个同龄人警惕：新型毒品不再以「毒品」的样子出现，而是一支普通的电子烟。它利用的正是「看起来无害」的心理缺口。当一种东西需要在夜市和校园里偷偷卖给你时，答案早就写好了。",
    "pick": 2
+  },
+  {
+   "t": "「電影最大的風險是不去冒險」：BBC專訪電影《奧德賽》劇組",
+   "url": "https://www.bbc.com/zhongwen/articles/c1k13k3xyw9o/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-07-17T16:24:01+08:00",
+   "sum": "今年夏天，克里斯多福．諾蘭（Christopher Nolan）正以擁有三千年歷史的《奧德賽》改寫電影史 —— 該部片是全球首部全程以IMAX規格拍攝的電影。",
+   "img": "data/img/2026-07-17_48.jpg",
+   "comment": ""
   },
   {
    "t": "微软开源 Comic Chat",

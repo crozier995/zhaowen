@@ -122,6 +122,78 @@ def prune_images(days=10):
                 pass
 
 
+def fetch_hot():
+    """抓取微博/B站/百度热搜，各取前 10 条"""
+    from urllib.parse import quote
+    hot = {}
+    H = dict(HEADERS)
+    H["Referer"] = "https://weibo.com/"
+    try:
+        r = requests.get("https://weibo.com/ajax/side/hotSearch", timeout=12, headers=H)
+        lst = r.json()["data"]["realtime"]
+        items = []
+        for it in lst:
+            if it.get("is_ad"):
+                continue
+            w = it.get("word") or it.get("note", "")
+            if not w:
+                continue
+            heat = it.get("num", 0)
+            items.append({"t": w, "url": "https://s.weibo.com/weibo?q=" + quote(w),
+                          "heat": f"{heat/10000:.0f}万" if heat > 10000 else str(heat)})
+            if len(items) >= 10:
+                break
+        if items:
+            hot["微博"] = items
+        print(f"  [热搜] 微博 {len(items)} 条")
+    except Exception as e:
+        print(f"  [热搜] 微博失败: {e}")
+    try:
+        r = requests.get("https://s.search.bilibili.com/main/hotword", timeout=12, headers=H)
+        lst = r.json()["list"]
+        items = [{"t": it.get("show_name") or it.get("keyword", ""),
+                  "url": "https://search.bilibili.com/all?keyword=" + quote(it.get("show_name") or it.get("keyword", "")),
+                  "heat": ""} for it in lst[:10]]
+        if items:
+            hot["B站"] = items
+        print(f"  [热搜] B站 {len(items)} 条")
+    except Exception as e:
+        print(f"  [热搜] B站失败: {e}")
+    try:
+        r = requests.get("https://top.baidu.com/api/board?platform=wise&tab=realtime", timeout=12, headers=H)
+        cards = r.json()["data"]["cards"]
+        raw_items = []
+        for card in cards:
+            for comp in (card.get("content") or []):
+                for it in (comp.get("content") or []):
+                    raw_items.append(it)
+                if card.get("component") == "tabTextList" and raw_items:
+                    break
+            if raw_items:
+                break
+        items = []
+        for it in raw_items:
+            w = it.get("word", "")
+            if not w:
+                continue
+            url = it.get("url") or ("https://www.baidu.com/s?wd=" + quote(w))
+            heat = ""
+            try:
+                hs = int(it.get("hotScore") or 0)
+                heat = f"{hs/10000:.0f}万" if hs > 10000 else ""
+            except Exception:
+                pass
+            items.append({"t": w, "url": url, "heat": heat})
+            if len(items) >= 10:
+                break
+        if items:
+            hot["百度"] = items
+        print(f"  [热搜] 百度 {len(items)} 条")
+    except Exception as e:
+        print(f"  [热搜] 百度失败: {e}")
+    return hot
+
+
 def parse_time(s):
     if not s:
         return None
@@ -211,6 +283,8 @@ def main():
     days = {}
     for it in pool:
         days.setdefault(day_of(it, now), []).append(it)
+    today_str = now.strftime("%Y-%m-%d")
+    hot_data = fetch_hot()
     dates = set()
     for d, items in days.items():
         f = os.path.join(DATA, f"{d}.js")
@@ -256,6 +330,8 @@ def main():
         payload = {"date": d,
                    "updated": now.strftime("%H:%M"),
                    "items": items}
+        if d == today_str and hot_data:
+            payload["hot"] = hot_data
         with open(f, "w", encoding="utf-8") as fp:
             fp.write(f'window.EDITIONS=window.EDITIONS||{{}};EDITIONS["{d}"]=')
             json.dump(payload, fp, ensure_ascii=False, indent=1)
