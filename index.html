@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>朝闻 · 每日新闻</title>
+<style>
+  :root {
+    --bg: #faf8f5; --surface: #ffffff; --border: #e9e5de; --border-strong: #d8d3c9;
+    --text: #201d18; --dim: #7c766b; --faint: #aca69a;
+    --accent: #c2452d;
+    --accent-soft: #fdf0ec;
+    --gold: #b98a2f;
+    --radius: 16px;
+    --serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+    --sans: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+    /* 分类色 */
+    --c-科技: #2563eb; --c-科学: #7c3aed; --c-游戏: #16a34a; --c-体育: #ea580c;
+    --c-生活: #0891b2; --c-文化: #db2777; --c-商业: #b98a2f; --c-世界: #475569; --c-社会: #c2452d;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { font-family: var(--sans); background: var(--bg); color: var(--text); -webkit-font-smoothing: antialiased; }
+
+  /* ============ 晨光 Hero ============ */
+  .hero {
+    position: relative; min-height: 62vh; overflow: hidden;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; transition: background 2s ease;
+  }
+  .hero .sky { position: absolute; inset: 0; transition: opacity 2s ease; opacity: 0; }
+  .hero .sky.on { opacity: 1; }
+  .hero .sun {
+    position: absolute; left: 50%; top: 58%; width: 340px; height: 340px;
+    transform: translate(-50%, -50%); border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,214,150,.9), rgba(255,160,90,.35) 45%, transparent 70%);
+    filter: blur(2px); animation: sunPulse 9s ease-in-out infinite;
+  }
+  @keyframes sunPulse { 0%,100% { transform: translate(-50%,-50%) scale(1); } 50% { transform: translate(-50%,-52%) scale(1.06); } }
+  .grain {
+    position: absolute; inset: 0; opacity: .5; pointer-events: none; mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04 0'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  .particle {
+    position: absolute; border-radius: 50%; background: rgba(255,255,255,.85);
+    animation: floatUp linear infinite; pointer-events: none;
+  }
+  @keyframes floatUp {
+    from { transform: translateY(0); opacity: 0; }
+    12% { opacity: .9; } 85% { opacity: .5; }
+    to { transform: translateY(-58vh); opacity: 0; }
+  }
+  .masthead { position: relative; z-index: 2; transition: transform .18s ease-out; }
+  .masthead .top-line {
+    font-size: 13px; letter-spacing: 6px; color: var(--dim); margin-bottom: 18px;
+    display: flex; align-items: center; gap: 14px; justify-content: center;
+  }
+  .top-line::before, .top-line::after { content: ""; width: 44px; height: 1px; background: var(--border-strong); }
+  .masthead h1 {
+    font-family: var(--serif); font-size: clamp(72px, 12vw, 128px); font-weight: 900;
+    letter-spacing: 18px; text-indent: 18px; line-height: 1; color: var(--text);
+  }
+  .masthead .pinyin { font-size: 13px; letter-spacing: 10px; color: var(--faint); margin-top: 14px; }
+  .hero-date { position: relative; z-index: 2; margin-top: 34px; font-family: var(--serif); font-size: 17px; color: var(--dim); letter-spacing: 2px; }
+  .hero-date b { color: var(--text); font-size: 20px; }
+  .hero-meta { position: relative; z-index: 2; margin-top: 10px; font-size: 12.5px; color: var(--faint); letter-spacing: 1px; }
+  .scroll-hint {
+    position: absolute; bottom: 26px; left: 50%; transform: translateX(-50%); z-index: 2;
+    font-size: 11px; letter-spacing: 3px; color: var(--faint); animation: hintBob 2.4s ease-in-out infinite;
+  }
+  @keyframes hintBob { 0%,100% { transform: translate(-50%,0);} 50% { transform: translate(-50%,7px);} }
+
+  /* ============ 导航条 ============ */
+  .navbar {
+    position: sticky; top: 0; z-index: 20;
+    background: rgba(250,248,245,.86); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-inner { max-width: 860px; margin: 0 auto; padding: 10px 20px; display: flex; align-items: center; justify-content: space-between; }
+  .nav-title { font-family: var(--serif); font-weight: 900; font-size: 16px; letter-spacing: 3px; }
+  .nav-btns { display: flex; gap: 8px; align-items: center; }
+  .nav-btn {
+    border: 1px solid var(--border-strong); background: var(--surface); color: var(--text);
+    border-radius: 8px; padding: 6px 14px; font-size: 13px; cursor: pointer; font-family: inherit; transition: all .15s;
+  }
+  .nav-btn:hover:not(:disabled) { border-color: var(--text); }
+  .nav-btn:disabled { opacity: .3; cursor: not-allowed; }
+  #progressbar { position: absolute; left: 0; bottom: -1px; height: 2px; width: 0; background: var(--accent); transition: width .12s linear; }
+
+  /* ============ 分类筛选条 ============ */
+  .catbar {
+    position: sticky; top: 45px; z-index: 19;
+    background: rgba(250,248,245,.86); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+  .catbar-inner { max-width: 860px; margin: 0 auto; padding: 8px 20px; display: flex; gap: 7px; overflow-x: auto; scrollbar-width: none; }
+  .catbar-inner::-webkit-scrollbar { display: none; }
+  .catchip {
+    flex: none; display: flex; align-items: center; gap: 6px;
+    font-size: 12.5px; padding: 5px 13px; border-radius: 99px;
+    border: 1px solid var(--border-strong); background: var(--surface); color: var(--dim);
+    cursor: pointer; font-family: inherit; transition: all .15s;
+  }
+  .catchip .cdot { width: 7px; height: 7px; border-radius: 50%; }
+  .catchip:hover { border-color: var(--text); color: var(--text); }
+  .catchip.on { background: var(--text); color: #fff; border-color: var(--text); font-weight: 600; }
+  .catchip .n { font-size: 10.5px; opacity: .65; }
+
+  /* ============ 日历弹层 ============ */
+  .cal-pop {
+    position: fixed; inset: 0; z-index: 50; display: none; align-items: flex-start; justify-content: center;
+    background: rgba(32,29,24,.32); backdrop-filter: blur(3px); padding-top: 90px;
+  }
+  .cal-pop.show { display: flex; animation: fadeIn .2s ease; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .cal-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+    padding: 24px; width: 320px; box-shadow: 0 20px 60px rgba(32,29,24,.2);
+    animation: popIn .25s cubic-bezier(.2,.9,.3,1.2);
+  }
+  @keyframes popIn { from { transform: scale(.92) translateY(-8px); opacity: 0; } to { transform: none; opacity: 1; } }
+  .cal-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; font-family: var(--serif); font-weight: 700; }
+  .cal-head button { border: none; background: none; font-size: 18px; cursor: pointer; color: var(--dim); padding: 2px 8px; }
+  .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 5px; text-align: center; }
+  .cal-grid .dow { font-size: 10.5px; color: var(--faint); padding: 4px 0; }
+  .cal-day { aspect-ratio: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 13px; border-radius: 8px; color: var(--dim); }
+  .cal-day.has { color: var(--text); font-weight: 700; cursor: pointer; border: 1px solid var(--border); background: var(--bg); }
+  .cal-day.has:hover { border-color: var(--accent); color: var(--accent); }
+  .cal-day.cur { background: var(--text); color: #fff; }
+  .cal-day .dot { width: 4px; height: 4px; border-radius: 50%; background: var(--accent); margin-top: 2px; }
+  .cal-day.cur .dot { background: #fff; }
+
+  /* ============ 正文 ============ */
+  main { max-width: 860px; margin: 0 auto; padding: 46px 20px 90px; }
+  .edition-head { text-align: center; margin-bottom: 40px; }
+  .edition-head .label { font-size: 12px; letter-spacing: 5px; color: var(--accent); margin-bottom: 10px; }
+  .edition-head h2 { font-family: var(--serif); font-size: 30px; font-weight: 900; letter-spacing: 2px; }
+  .edition-head .sub { margin-top: 10px; font-size: 13px; color: var(--dim); }
+
+  .reveal { opacity: 0; transform: translateY(26px); transition: opacity .7s cubic-bezier(.2,.7,.3,1), transform .7s cubic-bezier(.2,.7,.3,1); }
+  .reveal.in { opacity: 1; transform: none; }
+
+  /* 头条 */
+  .feature {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    margin-bottom: 30px; box-shadow: 0 2px 6px rgba(32,29,24,.05);
+    position: relative; overflow: hidden;
+  }
+  .feature::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: linear-gradient(180deg, var(--accent), var(--gold)); z-index: 2; }
+  .feature .fbody { padding: 40px 42px; position: relative; }
+  .feature .rank { position: absolute; right: 26px; top: 18px; font-family: var(--serif); font-size: 64px; font-weight: 900; color: #f3efe8; line-height: 1; user-select: none; z-index: 1; }
+  .feature-img { width: 100%; height: 300px; object-fit: cover; display: block; }
+  .feature h3 { font-family: var(--serif); font-size: 27px; font-weight: 900; line-height: 1.55; margin-bottom: 16px; position: relative; z-index: 1; }
+
+  .chips { display: flex; gap: 8px; align-items: center; margin-bottom: 16px; flex-wrap: wrap; }
+  .chip { font-size: 11.5px; padding: 3px 11px; border-radius: 99px; border: 1px solid var(--border-strong); color: var(--dim); }
+  .chip.cat { font-weight: 600; border: none; color: #fff; }
+  .chip.time { border: none; color: var(--faint); padding-left: 0; }
+  .feature h3 a, .card h3 a { color: inherit; text-decoration: none; }
+  .feature h3 a:hover, .card h3 a:hover { color: var(--accent); }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 28px 30px; margin-bottom: 18px; box-shadow: 0 1px 3px rgba(32,29,24,.04);
+    transition: transform .2s ease, box-shadow .2s ease;
+    position: relative; overflow: hidden;
+  }
+  .card::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--catc, var(--border)); opacity: .55; }
+  .card:hover { transform: translateY(-3px); box-shadow: 0 10px 28px rgba(32,29,24,.08); }
+  .card .rank { position: absolute; right: 22px; top: 14px; font-family: var(--serif); font-size: 40px; font-weight: 900; color: #f3efe8; line-height: 1; user-select: none; }
+  .card h3 { font-family: var(--serif); font-size: 19.5px; font-weight: 700; line-height: 1.65; margin-bottom: 12px; }
+  .card .with-img { display: flex; gap: 20px; }
+  .card .with-img .txt { flex: 1; min-width: 0; }
+  .card .thumb { flex: none; width: 168px; height: 118px; object-fit: cover; border-radius: 10px; border: 1px solid var(--border); }
+
+  .summary { font-family: var(--serif); font-size: 15px; line-height: 2.05; color: #4a463f; margin-bottom: 16px; }
+  .comment {
+    display: flex; gap: 12px; background: #fbf7f0; border: 1px solid #f0e6d2;
+    border-radius: 12px; padding: 14px 16px; margin-bottom: 14px;
+  }
+  .comment .k {
+    flex: none; width: 28px; height: 28px; border-radius: 50%; background: var(--text); color: #fff;
+    font-family: var(--serif); font-weight: 900; font-size: 14px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .comment .ct { font-size: 14px; line-height: 1.95; color: #5c5240; }
+  .comment .ct b { color: var(--gold); font-weight: 600; font-size: 12px; letter-spacing: 1px; display: block; margin-bottom: 3px; }
+  .readmore { font-size: 13px; color: var(--dim); }
+  .readmore a { color: var(--text); text-decoration: none; border-bottom: 1px solid var(--border-strong); padding-bottom: 1px; transition: all .15s; }
+  .readmore a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+  /* 快讯 */
+  .brief-title { font-family: var(--serif); font-size: 19px; font-weight: 900; margin: 46px 0 18px; display: flex; align-items: center; gap: 14px; }
+  .brief-title::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+  .brief {
+    display: flex; gap: 12px; padding: 13px 4px; border-bottom: 1px dashed var(--border);
+    font-size: 14.5px; align-items: baseline; transition: background .15s;
+  }
+  .brief:hover { background: #f4f1eb; }
+  .brief .bdot { flex: none; width: 7px; height: 7px; border-radius: 50%; align-self: center; }
+  .brief .src { flex: none; font-size: 11.5px; color: var(--faint); width: 52px; }
+  .brief a { color: var(--text); text-decoration: none; line-height: 1.7; }
+  .brief a:hover { color: var(--accent); }
+  .hide-cat { display: none !important; }
+
+  footer { text-align: center; padding: 40px 20px 60px; color: var(--faint); font-size: 12.5px; line-height: 2.2; border-top: 1px solid var(--border); max-width: 860px; margin: 0 auto; }
+  footer b { color: var(--dim); }
+  .updated { font-variant-numeric: tabular-nums; }
+
+  @media (max-width: 620px) {
+    .feature .fbody { padding: 28px 22px; } .feature h3 { font-size: 21px; }
+    .feature-img { height: 180px; }
+    .card { padding: 22px 18px; }
+    .card .with-img { flex-direction: column-reverse; }
+    .card .thumb { width: 100%; height: 150px; }
+    .masthead h1 { letter-spacing: 10px; text-indent: 10px; }
+    .hero { min-height: 48vh; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero" id="hero">
+  <div class="sky" id="sky"></div>
+  <div class="sun"></div>
+  <div class="grain"></div>
+  <div class="masthead" id="masthead">
+    <div class="top-line">每 日 晨 间 新 闻</div>
+    <h1>朝闻</h1>
+    <div class="pinyin">Z H A O &nbsp; W E N</div>
+  </div>
+  <div class="hero-date" id="hero-date"></div>
+  <div class="hero-meta" id="hero-meta"></div>
+  <div class="scroll-hint">向下阅读 ↓</div>
+</header>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <span class="nav-title">朝闻</span>
+    <div class="nav-btns">
+      <button class="nav-btn" id="prev-day">← 前一天</button>
+      <button class="nav-btn" id="cal-open">📅 归档</button>
+      <button class="nav-btn" id="next-day">后一天 →</button>
+    </div>
+  </div>
+  <div id="progressbar"></div>
+</nav>
+
+<div class="catbar" id="catbar" style="display:none">
+  <div class="catbar-inner" id="catbar-inner"></div>
+</div>
+
+<div class="cal-pop" id="cal-pop">
+  <div class="cal-card">
+    <div class="cal-head"><span id="cal-title"></span><button id="cal-close">✕</button></div>
+    <div class="cal-grid" id="cal-grid"></div>
+  </div>
+</div>
+
+<main id="main"></main>
+
+<footer>
+  <b>内容声明</b>：新闻来自 36氪 · 爱范儿 · IT之家 · Solidot · 界面新闻 · BBC中文 · 机核 的公开 RSS，<br>
+  摘要为媒体原文（过长处以「…（截断）」标注），每条均可点击跳转原始出处。<br>
+  「Kimi 点评」为 AI 生成的个人观点，仅供参考，不代表任何媒体立场。<br>
+  <span class="updated" id="footer-updated"></span>
+</footer>
+
+<script src="data/index.js"></script>
+<script>
+const $ = id => document.getElementById(id);
+const ARCH = window.ARCHIVE || [];
+let cur = ARCH[0] || null;
+let curFilter = "全部";
+
+const CAT_ORDER = ["科技","科学","游戏","体育","生活","文化","商业","世界","社会"];
+const CAT_COLOR = c => `var(--c-${c}, var(--faint))`;
+const CN_NUM = ["壹","贰","叁","肆","伍","陆","柒","捌","玖","拾","拾壹","拾贰","拾叁","拾肆","拾伍"];
+
+/* ---------- 晨光 ---------- */
+function paintSky() {
+  const h = new Date().getHours() + new Date().getMinutes() / 60;
+  let g;
+  if (h >= 5 && h < 8)        g = "linear-gradient(180deg,#f7e8d8 0%,#f5d9c0 45%,#eec9a8 100%)";
+  else if (h >= 8 && h < 16)  g = "linear-gradient(180deg,#eef4f7 0%,#f7f2e9 60%,#f5ead6 100%)";
+  else if (h >= 16 && h < 19) g = "linear-gradient(180deg,#f3e3d3 0%,#eccdb4 55%,#e3b89a 100%)";
+  else                        g = "linear-gradient(180deg,#232a3a 0%,#3a3a52 55%,#5c4a56 100%)";
+  const sky = $("sky");
+  sky.style.background = g;
+  sky.classList.add("on");
+  document.querySelector(".sun").style.opacity = (h >= 19 || h < 5) ? .25 : 1;
+}
+paintSky();
+
+(function particles() {
+  const hero = $("hero");
+  for (let i = 0; i < 26; i++) {
+    const p = document.createElement("div");
+    p.className = "particle";
+    const s = 2 + Math.random() * 3.5;
+    p.style.cssText = `width:${s}px;height:${s}px;left:${Math.random()*100}%;top:${55+Math.random()*45}%;
+      animation-duration:${7+Math.random()*9}s;animation-delay:${-Math.random()*12}s;opacity:0;`;
+    hero.appendChild(p);
+  }
+})();
+
+document.addEventListener("mousemove", e => {
+  const x = (e.clientX / innerWidth - .5) * 14, y = (e.clientY / innerHeight - .5) * 9;
+  $("masthead").style.transform = `translate(${x}px,${y}px)`;
+});
+
+/* ---------- 工具 ---------- */
+const WEEK = ["日","一","二","三","四","五","六"];
+function fmtDate(d) {
+  const dt = new Date(d + "T00:00:00");
+  return `${dt.getFullYear()} 年 ${dt.getMonth()+1} 月 ${dt.getDate()} 日 · 星期${WEEK[dt.getDay()]}`;
+}
+function fmtTime(ts) {
+  if (!ts) return "";
+  const dt = new Date(ts);
+  return `${String(dt.getHours()).padStart(2,"0")}:${String(dt.getMinutes()).padStart(2,"0")}`;
+}
+function esc(s) { const d = document.createElement("div"); d.textContent = s; return d.innerHTML; }
+
+function loadEdition(date) {
+  return new Promise((resolve, reject) => {
+    if (window.EDITIONS && window.EDITIONS[date]) return resolve(window.EDITIONS[date]);
+    const s = document.createElement("script");
+    s.src = `data/${date}.js`;
+    s.onload = () => (window.EDITIONS && window.EDITIONS[date]) ? resolve(window.EDITIONS[date]) : reject();
+    s.onerror = reject;
+    document.head.appendChild(s);
+  });
+}
+
+function itemInner(it) {
+  return `
+    <div class="chips">
+      <span class="chip cat" style="background:${CAT_COLOR(it.cat)}">${esc(it.cat)}</span>
+      <span class="chip">${esc(it.src)}</span>
+      <span class="chip time">${fmtTime(it.ts)}</span>
+    </div>
+    <h3><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.t)}</a></h3>
+    ${it.sum ? `<p class="summary">${esc(it.sum)}</p>` : ""}
+    ${it.comment ? `<div class="comment"><span class="k">K</span><div class="ct"><b>KIMI 点评</b>${esc(it.comment)}</div></div>` : ""}
+    <div class="readmore"><a href="${esc(it.url)}" target="_blank" rel="noopener">阅读原文 · ${esc(it.src)} ↗</a></div>`;
+}
+
+function imgTag(it, cls) {
+  if (!it.img) return "";
+  return `<img class="${cls}" src="${esc(it.img)}" alt="" loading="lazy" onerror="this.remove()">`;
+}
+
+/* ---------- 分类筛选条 ---------- */
+function renderCatbar(items) {
+  const cats = CAT_ORDER.filter(c => items.some(i => i.cat === c));
+  const bar = $("catbar");
+  if (!cats.length) { bar.style.display = "none"; return; }
+  bar.style.display = "block";
+  const inner = $("catbar-inner");
+  const mk = (label, color, n) =>
+    `<button class="catchip ${curFilter === label ? "on" : ""}" data-cat="${label}">
+       ${color ? `<span class="cdot" style="background:${color}"></span>` : ""}${label}<span class="n">${n}</span>
+     </button>`;
+  inner.innerHTML =
+    mk("全部", null, items.length) +
+    cats.map(c => mk(c, CAT_COLOR(c), items.filter(i => i.cat === c).length)).join("");
+  inner.querySelectorAll(".catchip").forEach(b => b.onclick = () => {
+    curFilter = b.dataset.cat;
+    inner.querySelectorAll(".catchip").forEach(x => x.classList.toggle("on", x.dataset.cat === curFilter));
+    applyFilter();
+  });
+}
+
+function applyFilter() {
+  document.querySelectorAll("[data-item-cat]").forEach(el => {
+    el.classList.toggle("hide-cat", curFilter !== "全部" && el.dataset.itemCat !== curFilter);
+  });
+}
+
+/* ---------- 渲染一天的报纸 ---------- */
+async function render(date) {
+  cur = date;
+  curFilter = "全部";
+  const main = $("main");
+  main.style.opacity = 0;
+  let ed;
+  try { ed = await loadEdition(date); }
+  catch { main.innerHTML = `<div class="edition-head"><h2>这一天还没有报纸</h2><p class="sub">双击「更新新闻.bat」获取最新内容</p></div>`; main.style.opacity = 1; return; }
+
+  const items = ed.items || [];
+  const picks = items.filter(i => i.pick).sort((a, b) => (a.pick || 99) - (b.pick || 99));
+  const rest = items.filter(i => !i.pick);
+  const srcs = [...new Set(items.map(i => i.src))];
+
+  $("hero-date").innerHTML = `<b>${fmtDate(date)}</b>`;
+  $("hero-meta").textContent = `今日收录 ${items.length} 条 · 精选点评 ${picks.length} 条 · 更新于 ${ed.updated || "--"}`;
+  $("footer-updated").textContent = `本期更新于 ${date} ${ed.updated || ""} · 归档共 ${ARCH.length} 天`;
+
+  let html = `<div class="edition-head reveal">
+      <div class="label">今 日 精 选</div>
+      <h2>${fmtDate(date).split("·")[0]}</h2>
+      <p class="sub">来源：${srcs.join(" · ")}</p>
+    </div>`;
+
+  picks.forEach((it, i) => {
+    const rank = `<div class="rank">${CN_NUM[Math.min(i, CN_NUM.length - 1)]}</div>`;
+    if (i === 0) {
+      html += `<article class="feature reveal" data-item-cat="${esc(it.cat)}">
+        ${imgTag(it, "feature-img")}
+        <div class="fbody">${rank}${itemInner(it)}</div></article>`;
+    } else {
+      const body = it.img
+        ? `<div class="with-img"><div class="txt">${itemInner(it)}</div>${imgTag(it, "thumb")}</div>`
+        : itemInner(it);
+      html += `<article class="card reveal" style="--catc:${CAT_COLOR(it.cat)}" data-item-cat="${esc(it.cat)}">${rank}${body}</article>`;
+    }
+  });
+
+  if (rest.length) {
+    html += `<div class="brief-title reveal">更多快讯</div>` + rest.map(it => `
+      <div class="brief reveal" data-item-cat="${esc(it.cat)}">
+        <span class="bdot" style="background:${CAT_COLOR(it.cat)}"></span>
+        <span class="src">${esc(it.src)}</span>
+        <a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.t)}</a>
+      </div>`).join("");
+  }
+
+  main.innerHTML = html;
+  requestAnimationFrame(() => { main.style.transition = "opacity .5s ease"; main.style.opacity = 1; });
+  renderCatbar(items);
+  observeReveals();
+  syncNav();
+  window.scrollTo({ top: 0 });
+}
+
+let io;
+function observeReveals() {
+  if (io) io.disconnect();
+  io = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
+  }), { threshold: .06, rootMargin: "0px 0px -30px 0px" });
+  document.querySelectorAll(".reveal").forEach((el, i) => {
+    el.style.transitionDelay = Math.min(i * 45, 400) + "ms";
+    io.observe(el);
+  });
+}
+
+/* ---------- 日期导航 ---------- */
+function syncNav() {
+  const i = ARCH.indexOf(cur);
+  $("prev-day").disabled = i >= ARCH.length - 1;
+  $("next-day").disabled = i <= 0;
+}
+$("prev-day").onclick = () => { const i = ARCH.indexOf(cur); if (i < ARCH.length - 1) render(ARCH[i+1]); };
+$("next-day").onclick = () => { const i = ARCH.indexOf(cur); if (i > 0) render(ARCH[i-1]); };
+document.addEventListener("keydown", e => {
+  if (e.key === "ArrowLeft") $("prev-day").click();
+  if (e.key === "ArrowRight") $("next-day").click();
+  if (e.key === "Escape") $("cal-pop").classList.remove("show");
+});
+
+/* ---------- 归档日历 ---------- */
+let calMonth = cur ? cur.slice(0, 7) : "";
+$("cal-open").onclick = () => { calMonth = (cur || ARCH[0] || "").slice(0, 7); drawCal(); $("cal-pop").classList.add("show"); };
+$("cal-close").onclick = () => $("cal-pop").classList.remove("show");
+$("cal-pop").onclick = e => { if (e.target === $("cal-pop")) $("cal-pop").classList.remove("show"); };
+
+function drawCal() {
+  const [y, m] = calMonth.split("-").map(Number);
+  $("cal-title").textContent = `${y} 年 ${m} 月`;
+  const first = new Date(y, m - 1, 1), days = new Date(y, m, 0).getDate();
+  let html = ["一","二","三","四","五","六","日"].map(d => `<div class="dow">${d}</div>`).join("");
+  let offset = (first.getDay() + 6) % 7;
+  for (let i = 0; i < offset; i++) html += `<div></div>`;
+  for (let d = 1; d <= days; d++) {
+    const ds = `${y}-${String(m).padStart(2,"0")}-${String(d).padStart(2,"0")}`;
+    const has = ARCH.includes(ds);
+    html += `<div class="cal-day ${has ? "has" : ""} ${ds === cur ? "cur" : ""}" ${has ? `data-d="${ds}"` : ""}>${d}${has ? '<span class="dot"></span>' : ""}</div>`;
+  }
+  const grid = $("cal-grid");
+  grid.innerHTML = html;
+  grid.querySelectorAll(".has").forEach(el => el.onclick = () => {
+    $("cal-pop").classList.remove("show"); render(el.dataset.d);
+  });
+}
+
+/* ---------- 阅读进度 ---------- */
+document.addEventListener("scroll", () => {
+  const h = document.documentElement;
+  const p = h.scrollTop / (h.scrollHeight - h.clientHeight || 1);
+  $("progressbar").style.width = (p * 100) + "%";
+}, { passive: true });
+
+if (cur) render(cur);
+else $("main").innerHTML = `<div class="edition-head"><h2>还没有任何报纸</h2><p class="sub">双击「更新新闻.bat」获取第一期</p></div>`;
+</script>
+</body>
+</html>
