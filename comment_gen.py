@@ -9,7 +9,7 @@ import requests
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(BASE, "data")
-API = "https://api.moonshot.cn/v1/chat/completions"
+API = "https://api.kimi.com/coding/v1/messages"   # Kimi Code 开放平台（会员额度内）
 
 PROMPT = """你是「朝闻」新闻日报的主编。下面是今天抓取的新闻候选（JSON 数组，含标题/来源/分类/摘要）。
 请完成两步工作：
@@ -27,7 +27,7 @@ def main():
     if not key:
         print("未配置 MOONSHOT_API_KEY，跳过点评生成（新闻照常更新）")
         return 0
-    today = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
+    today = os.environ.get("ZW_DATE") or datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
     fp = os.path.join(DATA, f"{today}.js")
     if not os.path.exists(fp):
         print(f"今日数据文件不存在: {fp}")
@@ -44,19 +44,21 @@ def main():
     cand = [{"url": i["url"], "src": i["src"], "cat": i["cat"],
              "t": i["t"], "sum": i.get("sum", "")[:220]} for i in items]
     body = {
-        "model": "kimi-k3",
+        "model": "k3",
+        "max_tokens": 4096,
+        "system": PROMPT,
         "messages": [
-            {"role": "system", "content": PROMPT},
             {"role": "user", "content": json.dumps(cand, ensure_ascii=False)},
         ],
-        "temperature": 0.7,
     }
     try:
-        r = requests.post(API, json=body, timeout=120,
-                          headers={"Authorization": f"Bearer {key}",
+        r = requests.post(API, json=body, timeout=180,
+                          headers={"x-api-key": key,
+                                   "anthropic-version": "2023-06-01",
                                    "Content-Type": "application/json"})
         r.raise_for_status()
-        text = r.json()["choices"][0]["message"]["content"]
+        blocks = r.json().get("content", [])
+        text = "".join(b.get("text", "") for b in blocks if b.get("type") == "text")
     except Exception as e:
         print(f"API 调用失败（不影响新闻更新）: {e}")
         return 0
