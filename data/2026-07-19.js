@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-07-19"]={
  "date": "2026-07-19",
- "updated": "19:52",
+ "updated": "20:06",
  "items": [
   {
    "t": "我这十年 | 对谈狼叔",
@@ -30,6 +30,36 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-07-19"]={
    "ts": "2026-07-19T20:40:03+08:00",
    "sum": "反数据中心抗议者在美国 42 州举行了 142 场抗议活动。这一抗议行动获得了两党民众支持、由前茶党领袖联合创办的组织 HumansFirst 协调。抗议者集会反对 HumansFirst 所称的数据中心“缺乏问责”的扩张以及“对自由不可接受的侵犯”。在弗吉尼亚州 Fredericksburg，一位年轻人举的牌子上面写着：“我们靠水而不是数据生存。”亚特兰大抗议者的标语是“佐治亚州从未投票支持超大规模人工智能数据中心”。HumansFirst 表示暂无全美和各大城市抗议者人数的统计数据。反对数据中心建设是少数几个能跨越意识形态团结美国人的议题之一。民调显示，只有三分之一的美国人认可数据中心的建 …（截断，全文见原文）",
    "img": "",
+   "comment": ""
+  },
+  {
+   "t": "這對雙生姐妹身高不足1.2米，卻為預防癌症提供關鍵線索",
+   "url": "https://www.bbc.com/zhongwen/articles/cvgle9q1vdxo/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "科学",
+   "ts": "2026-07-19T17:38:34+08:00",
+   "sum": "有研究顯示100名患者在22年內均沒發現糖尿病病例，只有一宗非致命性癌症；相比下，其1600名同村親屬的糖尿病和癌症比例高得多。",
+   "img": "data/img/2026-07-19_03.jpg",
+   "comment": ""
+  },
+  {
+   "t": "中國揭陽虐狗案：如何席捲全球各地輿論？",
+   "url": "https://www.bbc.com/zhongwen/articles/ce97zxp9795o/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-07-19T15:26:56+08:00",
+   "sum": "中國揭陽虐狗案引爆輿論，各地城巿群眾以不同方式聲援，在鬧巿投放廣告、派發傳單，甚至進一步演變成抵制行動。有學者希望事件能促使政府立法保護動物。",
+   "img": "data/img/2026-07-19_04.png",
+   "comment": ""
+  },
+  {
+   "t": "熱浪下歐洲人轉向中國空調，能否洗刷「中國製造」污名？",
+   "url": "https://www.bbc.com/zhongwen/articles/cm2gm3mymwwo/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-07-19T13:04:48+08:00",
+   "sum": "中國品牌正滿足歐洲急增的空調需求，而當地的空調普及率一向偏低。",
+   "img": "data/img/2026-07-19_05.jpg",
    "comment": ""
   },
   {
@@ -299,7 +329,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-07-19"]={
    "cat": "体育",
    "ts": "2026-07-19T08:23:42+08:00",
    "sum": "姆巴佩在金靴之爭中領先兩球，但梅西仍有可能在世界盃決賽反超前。",
-   "img": "data/img/2026-07-19_24.jpg",
+   "img": "data/img/2026-07-19_32.jpg",
    "comment": ""
   },
   {
@@ -309,7 +339,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-07-19"]={
    "cat": "科学",
    "ts": "2026-07-19T07:54:47+08:00",
    "sum": "研究人員發現，一顆類似地球的岩質行星在遙遠恆星的適居帶內運行，並擁有大氣層。",
-   "img": "data/img/2026-07-19_30.jpg",
+   "img": "data/img/2026-07-19_33.jpg",
    "comment": ""
   },
   {
