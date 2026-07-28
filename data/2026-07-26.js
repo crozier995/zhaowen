@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-07-26"]={
  "date": "2026-07-26",
- "updated": "09:19",
+ "updated": "09:06",
  "items": [
   {
    "t": "国产科幻电影《群星闪耀时》上映 2 天宣布撤档，豆瓣评分 7.5",
@@ -160,6 +160,16 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-07-26"]={
    "ts": "2026-07-26T18:57:43+08:00",
    "sum": "USA Today、Politico、Economist、People 和 Reuters 等知名网络出版商考虑彻底屏蔽 Google，甚至与 Google 签署了每年 6000 万美元合同的 Reddit 也在重新评估与 Google 的关系。原因是 Google 的 AI 摘要功能导致了网站访问量大幅下降，如 USA Today 过去一年来自美国用户的访问量下降了近一半，主要吸引用户评论的 Reddit 也注意到 Google 的 AI 在阻止用户访问其网站。鉴于 Google 在搜索市场占据了最高市场份额，与 Google 完全终止关系可能会导致访问量更大幅度的下降，但继续允许 Goog …（截断，全文见原文）",
    "img": "",
+   "comment": ""
+  },
+  {
+   "t": "边打拍子边动脑，推理游戏真不少 再荐茶社38",
+   "url": "https://www.gcores.com/radios/217552",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-07-26T18:44:46+08:00",
+   "sum": "🐧👉《再荐茶社》更新通知QQ群：1055561149 感谢大家一直以来的赞赏、订阅和支持，欢迎朋友们在评论中和我们一起分享游戏体验！ BGM：盛夏在杯子里冒泡｜Chill Trap beat“百香泡泡”｜轻快吉他律动 Prod by RYUU -------------------- 00:20 近期新闻雏选 微软超级大裁员 贝塞斯达画大饼 别杀死光盘情愿活动 P4R你做的什么丑东西 古剑实机试玩 黄昏之血内测 29:49 近期新游李选 Moonlight Peaks Budgie's Bug Shop Database Detective: Minor Crimes Division The …（截断，全文见原文）",
+   "img": "data/img/2026-07-26_16.png",
    "comment": ""
   },
   {
