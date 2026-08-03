@@ -68,7 +68,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-08-01"]={
    "src": "机核",
    "cat": "游戏",
    "ts": "2026-08-01T23:00:00+08:00",
-   "sum": "本期时间轴制作：佟和 本周DND公布了和《魔兽世界》联动的新消息；《绝地遣兵2》公布了与《战锤40k》联动的新消息；505 games 携手原主创夏思源官宣《无常》续作计划…​ *Booom 暴造“摊开玩”游戏市集正在火热售票中*​ 「摊开玩」独立游戏市集，现已开票！8月15-16日，来畅玩70+款精品独立游戏吧~ ​ 购票链接：https://www.gcores.com/articles/217359",
+   "sum": "本期时间轴制作：佟和 本周DND公布了和《魔兽世界》联动的新消息；《绝地遣兵2》公布了与《战锤40k》联动的新消息；505 games 携手原主创夏思源官宣《无常》续作计划…​ *Booom 暴造“摊开玩”游戏市集正在火热售票中*​ 「摊开玩」独立游戏市集，现已开票！8月15-16日，来畅玩70+款精品独立游戏吧~ ​ 购票链接： https://www.gcores.com/articles/217359",
    "img": "data/img/2026-08-01_06.png",
    "comment": ""
   },
@@ -128,7 +128,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-08-01"]={
    "src": "Solidot",
    "cat": "科学",
    "ts": "2026-08-01T22:21:46+08:00",
-   "sum": "记者 Gil Duran 即将出版的新书《The Nerd Reich: Silicon Valley Fascism and the War on Democracy》探讨了硅谷科技寡头的企业帝国之梦。亿万富翁们对社会有两种态度。其一称之为“退出”，他们想要去其它地方创建一个新的国家，认为民主制度太强大，太混乱，反弹太强烈，这是提出“The Network State”的 Balaji Srinivasan 等人的立场。其二是利用其富可敌国的创富改变和控制社会，这就是硅谷亿万富翁们现在正在做的。2024 年 9 月举行的名为 Reboot 2024 的会议讨论了右翼特朗普支持者和硅谷风险投资 …（截断，全文见原文）",
+   "sum": "记者 Gil Duran 即将出版的新书《The Nerd Reich: Silicon Valley Fascism and the War on Democracy》探讨了硅谷科技寡头的企业帝国之梦。亿万富翁们对社会有两种态度。其一称之为“退出”，他们想要去其它地方创建一个新的国家，认为民主制度太强大，太混乱，反弹太强烈，这是提出“The Network State”的 Balaji Srinivasan 等人的立场。其二是利用其富可敌国的财富改变和控制社会，这就是硅谷亿万富翁们现在正在做的。2024 年 9 月举行的名为 Reboot 2024 的会议讨论了右翼特朗普支持者和硅谷风险投资 …（截断，全文见原文）",
    "img": "",
    "comment": ""
   },
