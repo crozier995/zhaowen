@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-08-02"]={
  "date": "2026-08-02",
- "updated": "09:16",
+ "updated": "09:07",
  "items": [
   {
    "t": "小米汽车：澎程的长滑轨在损耗特性、养护逻辑上和常规滑轨没有区别，不会带来额外的使用负担",
