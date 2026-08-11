@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-08-09"]={
  "date": "2026-08-09",
- "updated": "08:35",
+ "updated": "08:34",
  "items": [
   {
    "t": "古尔曼曝光苹果早前设想：生产 iPhone 时就装好 iCloud 数据，让用户不再经历繁琐导数据流程",
