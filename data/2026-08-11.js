@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-08-11"]={
  "date": "2026-08-11",
- "updated": "08:43",
+ "updated": "08:44",
  "items": [
   {
    "t": "亚洲首个！我国柔直海上风电项目发电量破百亿千瓦时",
