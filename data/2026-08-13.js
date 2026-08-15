@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-08-13"]={
  "date": "2026-08-13",
- "updated": "08:44",
+ "updated": "08:00",
  "items": [
   {
    "t": "英伟达 GeForce NOW 原生 Linux 应用发布：结束 Beta 测试，支持 Ubuntu 24.04 及 Flatpak 安装",
