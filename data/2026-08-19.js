@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-08-19"]={
  "date": "2026-08-19",
- "updated": "07:59",
+ "updated": "08:00",
  "items": [
   {
    "t": "mRNA 癌症疫苗在 III 期黑色素瘤临床试验中取得积极成果",
@@ -203,7 +203,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-08-19"]={
    "comment": ""
   },
   {
-   "t": "《牛來》為何爆紅？觀眾、導演與電影從業者解讀「粗糙」動畫的意外狂歡",
+   "t": "《牛來》爆紅：觀眾、導演與電影業者解讀「粗糙」動畫的意外狂歡",
    "url": "https://www.bbc.com/zhongwen/articles/cq56nzxq39qo/trad?at_medium=RSS&at_campaign=rss",
    "src": "BBC中文",
    "cat": "世界",
