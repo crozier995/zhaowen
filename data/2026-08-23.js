@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-08-23"]={
  "date": "2026-08-23",
- "updated": "07:57",
+ "updated": "07:59",
  "items": [
   {
    "t": "玩家抵制 PlayStation 行动升级：一周 → 无限期，直至索尼为取消实体光盘认错",
