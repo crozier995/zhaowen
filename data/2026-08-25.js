@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-08-25"]={
  "date": "2026-08-25",
- "updated": "08:00",
+ "updated": "13:06",
  "items": [
   {
    "t": "社媒的设计方式让年轻人难以批判性思考",
