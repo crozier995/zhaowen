@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-08-26"]={
  "date": "2026-08-26",
- "updated": "13:06",
+ "updated": "15:05",
  "items": [
   {
    "t": "澳大利亚是地球最安全的地方",

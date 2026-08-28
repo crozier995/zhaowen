@@ -1,7 +1,327 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-08-27"]={
  "date": "2026-08-27",
- "updated": "13:06",
+ "updated": "15:05",
  "items": [
+  {
+   "t": "《变形金刚》擎天柱配音演员彼得·库伦去世，享年85岁",
+   "url": "https://www.gcores.com/articles/218915",
+   "src": "机核",
+   "cat": "文化",
+   "ts": "2026-08-27T23:51:41+08:00",
+   "sum": "为《变形金刚》擎天柱配音近40年的加拿大传奇配音演员彼得·库伦于当地时间8月26日在洛杉矶家中去世，享年85岁。除变形金刚外，入行逾50年的他曾为不少好莱坞电影担任旁白及配音。 他的兄长赖瑞·库伦（Larry Cullen）曾担任美国海军陆战队上尉，这给了他演绎擎天柱这个角色很大的灵感。他哥哥于2011年3月去世，享年70岁。为表扬他在圈中多年来的贡献，2014年9月30日他在好莱坞进行了打手印仪式。",
+   "img": "data/img/2026-08-27_00.jpg",
+   "comment": ""
+  },
+  {
+   "t": "Meta将支付 170 亿美元和解儿童隐私保护诉讼，将限制青少年在特定时间访问社媒",
+   "url": "https://www.solidot.org/story?sid=85215",
+   "src": "Solidot",
+   "cat": "生活",
+   "ts": "2026-08-27T23:29:16+08:00",
+   "sum": "Meta 与美国多州就儿童隐私和消费者保护案达成和解，同意向各州支付总额将近 167 亿美元和解金，以及对青少年用户施加一系列社媒使用限制，包括每天不能使用超过两小时。最具深远影响的和解条款是 Meta 同意实施一系列新的保障措施。这些措施将对面向青少年的社媒运作方式起到实质改变。其中一项变更将启用“夜间屏蔽”功能：在默认设置情况下，从午夜至凌晨6时，青少年将无法访问 Facebook 和 Instagram。此外青少年账户在 Meta 旗下所有社媒的每日累计使用时长，默认上限为两小时。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "NASA 准备本周日发射罗曼太空望远镜",
+   "url": "https://www.solidot.org/story?sid=85214",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-08-27T22:29:55+08:00",
+   "sum": "NASA 准备本周日 8 月 30 日在佛罗里达州的肯尼迪太空中心使用 SpaceX 的重型火箭 Falcon Heavy 发射罗曼太空望远镜。罗曼太空望远镜以 NASA 首任天文学部门女主任 Nancy Grace Roman 的名字命名，使用了美国国家侦察局捐赠的 2.4 米口径主镜，配备了两台科学仪器：3 亿像素多波段红外相机大视场仪表（WFI），能直接观测邻近恒星周围的类木行星的日冕仪（CGI）。其核心任务包括探测暗能量、发现系外行星及验证广义相对论宇宙时空曲率。罗曼望远镜不仅拥有哈勃望远镜的清晰视力，其视场扩大了 100 倍，能快速进行巡天观测，以解答天文学中的一些重大问题。望远镜在 …（截断，全文见原文）",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "亚马逊 AI 训练设施员工谈内部工作",
+   "url": "https://www.solidot.org/story?sid=85213",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-08-27T22:11:07+08:00",
+   "sum": "404 Media 前不久跟踪一本珍本图书到亚马逊位于内华达州拉斯维加斯的一个仓库，在该仓库工作的亚马逊团队被称为 VGT3，其 logo 是一只张着嘴、手里拿着一本书的恐龙。他们的主要工作是拆开书脊扫描图书训练 AI。一名在该仓库的亚马逊员工匿名接受了采访，谈论了他们的工作。这名员工称，仓库接收了大量图书，有新书，也有二手书，甚至还看到过代表英女王给议会的文件；图书的语种也是各种各样，有德语、俄语还有日语；他们会扫描图书的条形码移除重复的图书，重复的书会退还给图书经销商；他们使用一种人工操作的机器去切开书脊，使用几十台扫描仪扫描书页，扫描过的书页会处理掉；亚马逊最初告诉他们扫描的书页是用于 …（截断，全文见原文）",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "风云 T7 上市：9.49 万元起、全系 600km，电池出事赔新车",
+   "url": "https://www.ifanr.com/1677135?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "src": "爱范儿",
+   "cat": "科技",
+   "ts": "2026-08-27T21:42:10+08:00",
+   "sum": "打出一张真·安全牌。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "小鹏新版 VLA 9 月实装：记住过去 30 秒，预判未来 6 秒，开始在「时间里」开车",
+   "url": "https://www.ifanr.com/1677118?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "src": "爱范儿",
+   "cat": "科技",
+   "ts": "2026-08-27T21:36:06+08:00",
+   "sum": "小鹏 VLA 获得了奇异博士的超能力。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "亚马逊 Mechanical Turk 将于 9 月 30 日关闭",
+   "url": "https://www.solidot.org/story?sid=85212",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-08-27T18:48:03+08:00",
+   "sum": "亚马逊宣布其众包平台 Mechanical Turk 将于 9 月 30 日关闭。亚马逊上个月才宣布将于 7 月 30 日起停止接受新用户。当时亚马逊表示该决定是在“慎重考虑”后做出的，“现有用户可以继续正常使用该服务。AWS 将继续投资改进 Mechanical Turk 的安全性和可用性，但我们不打算推出新功能。如今它正式给 Mechanical Turk 画上了句号。亚马逊是从 2018 年起将 Mechanical Turk 变成训练神经网络的标注数据服务。但讽刺的是 2023 年的研究发现，该平台 33% 到 46% 的众包工作者使用大模型去完成任务，引发了对标注数据的可靠性以及是否 …（截断，全文见原文）",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "机器人运动会散场后，自变量给机器人建了一座「虚拟训练场」",
+   "url": "https://www.ifanr.com/1677048?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "src": "爱范儿",
+   "cat": "科技",
+   "ts": "2026-08-27T18:34:37+08:00",
+   "sum": "具身智能的「ChatGPT 时刻」，看谁能更快走进现实 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "为什么苹果、小米的 AI 电脑，都在死磕「内存墙」｜AI 器物志",
+   "url": "https://www.ifanr.com/1676852?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "src": "爱范儿",
+   "cat": "科技",
+   "ts": "2026-08-27T18:15:44+08:00",
+   "sum": "算力飞奔，内存掉队 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "日本藝術家「波點女王」草間彌生逝世，享年97歲",
+   "url": "https://www.bbc.com/zhongwen/articles/c7v46pr3ylqo/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-08-27T17:40:20+08:00",
+   "sum": "她以色彩繽紛的作品吸引了大量觀眾，並為女性藝術家作品拍賣出有史以來最高的價格。",
+   "img": "data/img/2026-08-27_09.jpg",
+   "comment": ""
+  },
+  {
+   "t": "【更新】《剑网3》制作人郭炜炜宣布离职",
+   "url": "https://www.gcores.com/articles/218893",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-08-27T17:36:00+08:00",
+   "sum": "【更新】雷军转发了郭炜炜的微博，并表示“感谢过去22年坚守与付出。祝一切顺利，后会有期！”。 【原文】《剑网3》制作人郭炜炜宣布离职，本周五是最后工作日。他表示：“天下无不散筵席，明天是我在西山居任职的最后一天。04年毕业为了实现心里的江湖梦加入金山游戏旗下的西山居，在剑网3奋斗的二十年是我最没有遗憾的时光，感谢雷军、西山居游戏与董事会给予我机会施展拳脚。 回望过往每一个版本更新每一个活动，我们共同成长，感谢这么多年一起并肩作战的伙伴余玉贤及杨。最难忘的还得是我们可爱的玩家，你们的热情支撑着剑网3的成长，你们永远像家人一样。 难掩不舍，也将翻开人生新的一页；山高水远，后会有期。” 郭炜炜200 …（截断，全文见原文）",
+   "img": "data/img/2026-08-27_10.jpg",
+   "comment": ""
+  },
+  {
+   "t": "理想换了一种活法！理想 i9、新 MEGA 即将发布，李想：纯电销量已经追平增程",
+   "url": "https://www.ifanr.com/1677019?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "src": "爱范儿",
+   "cat": "商业",
+   "ts": "2026-08-27T17:33:10+08:00",
+   "sum": "苹果和华为最难学的不是「自研」，而是让技术最终回归到商业。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "土木人狂喜：《建筑模拟器：进化》公布全新拆除玩法",
+   "url": "https://www.gcores.com/articles/218900",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-08-27T17:26:03+08:00",
+   "sum": "astragon Entertainment与weltenbauer.今日正式公布《建筑模拟器：进化》（Construction Simulator: Evolution）的全新 拆除玩法 。与此同时，官方也对游戏的发行计划进行了调整： 本作将率先通过Steam在PC平台开启抢先体验，PlayStation 5及Xbox Series X|S版本则调整至稍晚时间推出。 <内嵌内容，请前往机核查看> 伴随此次消息，官方同步发布了全新“重塑未来（Reshape the Future）”宣传片，首次展示拆除玩法；另一段 拆除玩法深度实机演示 则进一步呈现了这一全新系统的具体机制。 大兴土木之前，先把 …（截断，全文见原文）",
+   "img": "data/img/2026-08-27_12.jpg",
+   "comment": ""
+  },
+  {
+   "t": "LibreOffice 26.8 释出",
+   "url": "https://www.solidot.org/story?sid=85211",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-08-27T17:22:30+08:00",
+   "sum": "The Document Foundation 宣布释出 LibreOffice 26.8，强调该版本不包含生成式 AI 功能，不会将文档传输到远程服务进行处理，各个组件也不需要网络访问就能运行。LibreOffice 26.8 最大的单项改进聚焦于双向文本和复杂文本处理。Writer 现在会在打开或粘贴文档/纯文本时自动检测段落方向；换行时行尾空格的位置会根据段落方向而非相邻字符方向调整。从右至左或竖排中日韩（CJK）文档的对象大小调整句柄能正确工作。双向控制字符现已与其他格式标记一同可见。在 Calc 中，若在空单元格中输入从右至左的文本，系统会自动设置该单元格的方向。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "摆烂大赛，录音笔VOL.773",
+   "url": "https://www.gcores.com/radios/218895",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-08-27T17:00:00+08:00",
+   "sum": "【录音笔】是GPASS推出的一档会员专享节目，内容来自机核办公室日程生活和工作中的一些短小记录，每期时长十几分钟左右（大概吧）。内容也许是一些不成体统的碎碎念，也许是一些突然发疯的暴言，还有可能是哪个缺德的把办公室里真实的日常对话（dui ma）偷偷录了下来，总之就连我们自己现在也不知道每期会有哪些人参与，会录些什么。",
+   "img": "data/img/2026-08-27_14.jpg",
+   "comment": ""
+  },
+  {
+   "t": "智元机器人「奥运」首秀封神，戴着工牌狂揽 18 枚金牌",
+   "url": "https://www.ifanr.com/1676970?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "src": "爱范儿",
+   "cat": "体育",
+   "ts": "2026-08-27T16:48:38+08:00",
+   "sum": "刚下工厂，就上赛场，金牌榜奖牌榜双领跑 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "《守墓人2》定档，2026年9月22日全球发售",
+   "url": "https://www.gcores.com/articles/218897",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-08-27T16:47:15+08:00",
+   "sum": "由开发工作室Lazy Bear Games打造、Solo Game代理发行中国大陆地区的全新续作《守墓人2》（Graveyard Keeper 2）计划于2026年9月22日正式发售，目前游戏已开启预购。 《守墓人2》旨在继承玩家熟悉并喜爱的《守墓人》核心魅力——荒诞离奇的黑色幽默、道德底线摇摇欲坠的墓园经营，以及\"把别人的损失变成自己生意\"的独特乐趣——同时针对当下模拟经营与自动化玩法爱好者的需求，对这款经典系列进行现代化革新。在续作中，玩家将不再只是打理墓园的守墓人，而是晋升为 大审判官 ：从一场席卷王国的僵尸末日浩劫中拯救世界，把僵尸生意做大做强。 作为Lazy Bear Games的旗 …（截断，全文见原文）",
+   "img": "data/img/2026-08-27_16.jpg",
+   "comment": ""
+  },
+  {
+   "t": "传奇再临，《潜龙谍影：大师合集 Vol.2》今日全球正式推出",
+   "url": "https://www.gcores.com/articles/218896",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-08-27T16:44:21+08:00",
+   "sum": "科乐美今日正式在 Nintendo Switch 2、Nintendo Switch、PlayStation 5、Xbox Series X|S 及 Steam 平台推出《潜龙谍影：大师合集 Vol.2》。玩家可体验备受喜爱的《潜龙谍影4：爱国者之枪》与《潜龙谍影：和平行者》强化版本，畅享战术谍报动作／作战的乐趣；此外还收录系列外传作品《潜龙谍影：幽灵通天塔》作为追加内容。 <内嵌内容，请前往机核查看> 承接《潜龙谍影：大师合集 Vol.1》，本作再次带来 Solid Snake 与 Big Boss 的传奇故事。《潜龙谍影4：爱国者之枪》于2008年首次在 PlayStatio 3 推出，如 …（截断，全文见原文）",
+   "img": "data/img/2026-08-27_17.jpg",
+   "comment": ""
+  },
+  {
+   "t": "Apple Maps 加入广告",
+   "url": "https://www.solidot.org/story?sid=85210",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-08-27T16:38:19+08:00",
+   "sum": "苹果的地图服务 Apple Maps 加入了广告。美国和加拿大用户的搜索结果顶部以及“推荐地点（suggested places）”部分会显示付费广告商家的名字。苹果表示，广告可能基于用户的大致位置、搜索词或正在查看的地图区域，但不会与用户的 Apple 帐户关联，个人数据也保留在设备上。付费商家上会显示“Ad”的蓝色徽章。苹果强调，其广告政策致力于保护用户隐私，苹果不会收集或存储个人数据，也不会与第三方共享。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "OpenAI 的中场战事",
+   "url": "https://www.ifanr.com/1676929?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "src": "爱范儿",
+   "cat": "科技",
+   "ts": "2026-08-27T15:24:07+08:00",
+   "sum": "当领先者不易，当追赶者更不易 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "【抽奖】国产本格推理游戏《山河旅探》现已登陆主机平台",
+   "url": "https://www.gcores.com/articles/218885",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-08-27T15:24:00+08:00",
+   "sum": "由奥秘之家开发、NiuGamer发行的《山河旅探》，现已登陆任天堂Switch、PlayStation、XBOX以及Windows平台，同步支持PlayStation远程游玩和XBOX Play Anywhere功能，并将首次更新日本语言支持。 <内嵌内容，请前往机核查看> Switch介绍页： https://ec.nintendo.com/HK/zh/titles/70010000117445 PlayStation介绍页： https://store.playstation.com/zh-hant-hk/concept/10018294 XBOX介绍页： https://www.xbox …（截断，全文见原文）",
+   "img": "data/img/2026-08-27_20.jpg",
+   "comment": ""
+  },
+  {
+   "t": "温馨探索冒险游戏《卢湖采风》现已发售",
+   "url": "https://www.gcores.com/articles/218887",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-08-27T15:23:59+08:00",
+   "sum": "发行商 Megabit 与开发商 Tiny Roar 共同宣布 《卢湖采风》（Lou's Lagoon） 现已发售，是时候一起展翅腾飞、云端滑翔了！游戏同步登陆 PC、PlayStation 5、Nintendo Switch 1 和 2，以及 Xbox Series X|S 平台。游戏在 Steam 国区的定价为人民币 ￥88 。为庆祝游戏今日发售，所有平台现已限时推出 9 折/10%off 优惠！（Steam 国区首发折后价为 ￥79.2 ） <内嵌内容，请前往机核查看> 《卢湖采风》是一款温馨的探索冒险游戏。玩家将驾驶可靠的水上飞机，穿梭于热带风貌的灵境群岛，寻找猛烈风暴后失踪的家人卢叔 …（截断，全文见原文）",
+   "img": "data/img/2026-08-27_21.jpg",
+   "comment": ""
+  },
+  {
+   "t": "中尼边境泥石流灾害逾 1300 人失踪",
+   "url": "https://www.solidot.org/story?sid=85209",
+   "src": "Solidot",
+   "cat": "社会",
+   "ts": "2026-08-27T15:22:02+08:00",
+   "sum": "8 月 26 日周三上午中尼边境吉隆口岸发生泥石流灾害。尼泊尔周四报告有 165 人死亡，826 人失踪。中国央视报告，截至周四上午有 3 人死亡，558 人失踪，其中外国人 260 人。这次事件被认为是冰川崩塌引起的，冰川崩塌的震动是如此之大，以至于当地地震仪记录到了地震事件。美国地质调查局（USGS）称未发生地震，地震事件是 5.2 级冰川崩塌引起的。加拿大卡尔加里大学的 Dan Shugar 说，过去两天的卫星图像显示附近冰川损失了不少雪，“我猜测，积雪融化以及冰川冰的融化，将大量液态水注入冰川，这些水渗入冰川底部，起到润滑作用。这足以导致冰川崩塌。”他表示冰川崩塌可能与气候变化无关，但 …（截断，全文见原文）",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "赛博朋克像素风肉鸽《霓虹深渊2》科隆展宣布秋季全平台上线",
+   "url": "https://www.gcores.com/articles/218886",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-08-27T15:20:31+08:00",
+   "sum": "在今年的 FGS Live From gamescom上，由 Veewo Games 开发、Kepler发行的赛博朋克像素风题材动作Roguelike续作《霓虹深渊2》正式宣布，游戏 1.0 正式版将于今年秋季登陆全平台，包含 Steam、Xbox、PS5、NS以及移动端（TapTap 渠道），XBOX平台首发加入XGP，所有平台内容同步更新。移动端则将采用免费下载、付费解锁的买断制模式，后续更新内容将与PC端保持一致。 自 2025 年 7 月登陆 Steam开启抢先体验以来，《霓虹深渊2》已走过完整一年。开发团队 Veewo Games 在这一年间先后推出了五个重大版本更新，为游戏持续注入 …（截断，全文见原文）",
+   "img": "data/img/2026-08-27_23.jpg",
+   "comment": ""
+  },
+  {
+   "t": "亚马逊收购开源数据库 DuckDB 开发团队",
+   "url": "https://www.solidot.org/story?sid=85208",
+   "src": "Solidot",
+   "cat": "商业",
+   "ts": "2026-08-27T14:47:56+08:00",
+   "sum": "亚马逊同意收购开源数据库 DuckDB 开发团队 DuckLabs。DuckLabs 员工将加入亚马逊 AWS，其中包括联合创始人 Hannes Muhleisen 和 Mark Raasveldt，他们将继续领导团队和制定项目的技术方向，员工也将继续在阿姆斯特丹办公。DuckDB 项目将继续维持现有的开源状态，使用 MIT 许可证，由独立基金会管理。收购 DuckLabs 被认为有助于将亚马逊的云存储服务 S3 转型为客户分析数据而非仅仅存储数据的平台。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "Meta案突以180億美元和解，或加快清算社交媒體兒童安全",
+   "url": "https://www.bbc.com/zhongwen/articles/cew9197pqzwo/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-08-27T14:36:56+08:00",
+   "sum": "BBC科技編輯佐伊·克萊曼（Zoe Kleinman）認為，我們無止境刷看負面資訊的習慣已時日無多。",
+   "img": "data/img/2026-08-27_25.jpg",
+   "comment": ""
+  },
+  {
+   "t": "苹果发布会最全爆料：折叠 iPhone 和新 CEO 都来了，还有一个 One more thing",
+   "url": "https://www.ifanr.com/1676900?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "src": "爱范儿",
+   "cat": "科技",
+   "ts": "2026-08-27T14:25:14+08:00",
+   "sum": "苹果今年最重要的一场发布会，终于来了！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "新 Twitter.now 上线",
+   "url": "https://www.solidot.org/story?sid=85207",
+   "src": "Solidot",
+   "cat": "商业",
+   "ts": "2026-08-27T14:22:12+08:00",
+   "sum": "总部位于美国弗吉尼亚州的初创公司 Operation Bluebird 上线了新社交网络 Twitter.now，致力于复兴已被马斯克（Elon Musk）的 X 抛弃了的 Twitter。马斯克在 2022 年收购 Twitter 之后迅速将其改名为 X，弃用了 Twitter 相关标识。Operation Bluebird 的联合创始人认为此举标志着 X 放弃了 Twitter 的身份和知识产权， 为其申请 Twitter 商标权创造了机会，他们因此准备推出新版的 Twitter。X 去年底起诉了 Operation Bluebird，要求特拉华州联邦法官发布初步禁令，阻止新版 Twitt …（截断，全文见原文）",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "「家人在我眼前被洪水沖走了」：中尼邊境山洪倖存者憶述事發經過",
+   "url": "https://www.bbc.com/zhongwen/articles/cgk5754v4nmo/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "社会",
+   "ts": "2026-08-27T14:17:23+08:00",
+   "sum": "有尼泊爾災區的倖存者告訴BBC，她的多名家人在自己的眼前被洪水沖走，而她和兒子因爬到屋頂上而得以生還。",
+   "img": "data/img/2026-08-27_28.jpg",
+   "comment": ""
+  },
+  {
+   "t": "2026《影之刃零》微星游戏本选购攻略， RTX50显卡+分辨率+帧数全覆盖",
+   "url": "https://www.gcores.com/articles/218891",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-08-27T14:11:00+08:00",
+   "sum": "期待已久的武侠朋克大作《影之刃零》正式定档，将于2026年10月29日发售，登陆PC、PS5双平台。游戏搭载虚幻引擎5，支持光线追踪、路径追踪、DLSS 4.5多帧生成，画质拉满的同时对硬件门槛也相对更高。 图素来源：NVIDIA网站 很多玩家纠结： 什么配置能流畅玩？RTX50系列笔记本怎么选？1080P/2.5K/4K画质怎么调？ 这篇推文结合官方PC配置标准 + 2026微星全系游戏本参数，给大家一套直白、可直接作业的购机、画质设置方案。 ⚠重要说明 ：本文帧数均为发售前硬件预估帧数，非实机测试；笔记本 GPU≠桌面 GPU；正式版游戏、驱动更新后帧率会浮动。 一、核心速览：一句话看懂硬 …（截断，全文见原文）",
+   "img": "data/img/2026-08-27_29.webp",
+   "comment": ""
+  },
+  {
+   "t": "西藏尼泊爾山洪致逾160人死亡 吉隆口岸大樓被吞沒",
+   "url": "https://www.bbc.com/zhongwen/articles/c2e0k9d7lkyo/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-08-27T13:56:59+08:00",
+   "sum": "尼泊爾北部接壤西藏地區週三發生毀滅性洪災，導致中尼兩國逾160人死亡。",
+   "img": "data/img/2026-08-27_30.jpg",
+   "comment": ""
+  },
+  {
+   "t": "英伟达同意以 129 亿美元收购 Hugging Face",
+   "url": "https://www.solidot.org/story?sid=85206",
+   "src": "Solidot",
+   "cat": "商业",
+   "ts": "2026-08-27T13:21:19+08:00",
+   "sum": "The Information 报道，英伟达同意以 129 亿美元收购 Hugging Face。这笔交易仍处于敲定阶段，仍有可能告吹。英伟达是 Hugging Face 的投资者，它在 2023 年参与了 Hugging Face 的 D 轮融资，当时以 45 亿美元估值融资 2.35 亿美元。英伟达去年还提议以 70 亿美元估值投资 5 亿美元，但遭到 Hugging Face 的拒绝。Hugging Face 是开源 AI 生态系统的核心，托管着数百万个可供开发者使用的 AI 模型和数据集。收购该平台有助于让英伟达在 AI 开发者中占据更大的市场份额。",
+   "img": "",
+   "comment": ""
+  },
   {
    "t": "米哈游旗下恋爱手游《未定事件簿》宣布停止与德芙联名合作",
    "url": "https://www.ithome.com/0/994/963.htm",
@@ -329,7 +649,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-08-27"]={
    "cat": "世界",
    "ts": "2026-08-27T08:02:59+08:00",
    "sum": "一些最常獲處方的藥物，包括用於治療抑鬱症、注意力不足過動症（ADHD）和高血壓的藥物，可能會增加脫水及其他與高溫相關疾病的風險。",
-   "img": "data/img/2026-08-27_32.jpg",
+   "img": "data/img/2026-08-27_64.jpg",
    "comment": ""
   },
   {
@@ -339,7 +659,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-08-27"]={
    "cat": "世界",
    "ts": "2026-08-27T08:02:54+08:00",
    "sum": "中國史上最大規模的汽車召回事件影響超過400萬輛由特斯拉、小鵬汽車、小米等公司生產的汽車。",
-   "img": "data/img/2026-08-27_33.jpg",
+   "img": "data/img/2026-08-27_65.jpg",
    "comment": ""
   },
   {
@@ -362,163 +682,5 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-08-27"]={
    "img": "data/img/2026-08-27_35.jpg",
    "comment": ""
   }
- ],
- "hot": {
-  "微博": [
-   {
-    "t": "西藏泥石流遇难3人失联558人",
-    "url": "https://s.weibo.com/weibo?q=%E8%A5%BF%E8%97%8F%E6%B3%A5%E7%9F%B3%E6%B5%81%E9%81%87%E9%9A%BE3%E4%BA%BA%E5%A4%B1%E8%81%94558%E4%BA%BA",
-    "heat": "554万"
-   },
-   {
-    "t": "草间弥生去世",
-    "url": "https://s.weibo.com/weibo?q=%E8%8D%89%E9%97%B4%E5%BC%A5%E7%94%9F%E5%8E%BB%E4%B8%96",
-    "heat": "136万"
-   },
-   {
-    "t": "调派中国救援队增援吉隆泥石流救援",
-    "url": "https://s.weibo.com/weibo?q=%E8%B0%83%E6%B4%BE%E4%B8%AD%E5%9B%BD%E6%95%91%E6%8F%B4%E9%98%9F%E5%A2%9E%E6%8F%B4%E5%90%89%E9%9A%86%E6%B3%A5%E7%9F%B3%E6%B5%81%E6%95%91%E6%8F%B4",
-    "heat": "122万"
-   },
-   {
-    "t": "自梳女被父亲要求终身不嫁",
-    "url": "https://s.weibo.com/weibo?q=%E8%87%AA%E6%A2%B3%E5%A5%B3%E8%A2%AB%E7%88%B6%E4%BA%B2%E8%A6%81%E6%B1%82%E7%BB%88%E8%BA%AB%E4%B8%8D%E5%AB%81",
-    "heat": "111万"
-   },
-   {
-    "t": "店内离世老人儿子称深感抱歉",
-    "url": "https://s.weibo.com/weibo?q=%E5%BA%97%E5%86%85%E7%A6%BB%E4%B8%96%E8%80%81%E4%BA%BA%E5%84%BF%E5%AD%90%E7%A7%B0%E6%B7%B1%E6%84%9F%E6%8A%B1%E6%AD%89",
-    "heat": "88万"
-   },
-   {
-    "t": "去世老人生前几乎每天都来涉事牌馆",
-    "url": "https://s.weibo.com/weibo?q=%E5%8E%BB%E4%B8%96%E8%80%81%E4%BA%BA%E7%94%9F%E5%89%8D%E5%87%A0%E4%B9%8E%E6%AF%8F%E5%A4%A9%E9%83%BD%E6%9D%A5%E6%B6%89%E4%BA%8B%E7%89%8C%E9%A6%86",
-    "heat": "84万"
-   },
-   {
-    "t": "AI短剧 抄袭",
-    "url": "https://s.weibo.com/weibo?q=AI%E7%9F%AD%E5%89%A7%20%E6%8A%84%E8%A2%AD",
-    "heat": "78万"
-   },
-   {
-    "t": "尼泊尔山洪484名游客失联",
-    "url": "https://s.weibo.com/weibo?q=%E5%B0%BC%E6%B3%8A%E5%B0%94%E5%B1%B1%E6%B4%AA484%E5%90%8D%E6%B8%B8%E5%AE%A2%E5%A4%B1%E8%81%94",
-    "heat": "63万"
-   },
-   {
-    "t": "赵丽颖辛芷蕾影后受害者联盟",
-    "url": "https://s.weibo.com/weibo?q=%E8%B5%B5%E4%B8%BD%E9%A2%96%E8%BE%9B%E8%8A%B7%E8%95%BE%E5%BD%B1%E5%90%8E%E5%8F%97%E5%AE%B3%E8%80%85%E8%81%94%E7%9B%9F",
-    "heat": "50万"
-   },
-   {
-    "t": "中元节晚上不能出门是误会",
-    "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%85%83%E8%8A%82%E6%99%9A%E4%B8%8A%E4%B8%8D%E8%83%BD%E5%87%BA%E9%97%A8%E6%98%AF%E8%AF%AF%E4%BC%9A",
-    "heat": "48万"
-   }
-  ],
-  "B站": [
-   {
-    "t": "西藏泥石流558人失联3人遇难",
-    "url": "https://search.bilibili.com/all?keyword=%E8%A5%BF%E8%97%8F%E6%B3%A5%E7%9F%B3%E6%B5%81558%E4%BA%BA%E5%A4%B1%E8%81%943%E4%BA%BA%E9%81%87%E9%9A%BE",
-    "heat": ""
-   },
-   {
-    "t": "用JOJO的方式打开天龙八部",
-    "url": "https://search.bilibili.com/all?keyword=%E7%94%A8JOJO%E7%9A%84%E6%96%B9%E5%BC%8F%E6%89%93%E5%BC%80%E5%A4%A9%E9%BE%99%E5%85%AB%E9%83%A8",
-    "heat": ""
-   },
-   {
-    "t": "台风沙德尔实时路径",
-    "url": "https://search.bilibili.com/all?keyword=%E5%8F%B0%E9%A3%8E%E6%B2%99%E5%BE%B7%E5%B0%94%E5%AE%9E%E6%97%B6%E8%B7%AF%E5%BE%84",
-    "heat": ""
-   },
-   {
-    "t": "星宇股份就批量劝退应届生致歉",
-    "url": "https://search.bilibili.com/all?keyword=%E6%98%9F%E5%AE%87%E8%82%A1%E4%BB%BD%E5%B0%B1%E6%89%B9%E9%87%8F%E5%8A%9D%E9%80%80%E5%BA%94%E5%B1%8A%E7%94%9F%E8%87%B4%E6%AD%89",
-    "heat": ""
-   },
-   {
-    "t": "LPL选手最爱的历届S赛主题曲",
-    "url": "https://search.bilibili.com/all?keyword=LPL%E9%80%89%E6%89%8B%E6%9C%80%E7%88%B1%E7%9A%84%E5%8E%86%E5%B1%8AS%E8%B5%9B%E4%B8%BB%E9%A2%98%E6%9B%B2",
-    "heat": ""
-   },
-   {
-    "t": "美国海军后勤体系有何问题",
-    "url": "https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E6%B5%B7%E5%86%9B%E5%90%8E%E5%8B%A4%E4%BD%93%E7%B3%BB%E6%9C%89%E4%BD%95%E9%97%AE%E9%A2%98",
-    "heat": ""
-   },
-   {
-    "t": "机器人为何非要做成人形",
-    "url": "https://search.bilibili.com/all?keyword=%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%BA%E4%BD%95%E9%9D%9E%E8%A6%81%E5%81%9A%E6%88%90%E4%BA%BA%E5%BD%A2",
-    "heat": ""
-   },
-   {
-    "t": "霍格沃茨四大学院集合",
-    "url": "https://search.bilibili.com/all?keyword=%E9%9C%8D%E6%A0%BC%E6%B2%83%E8%8C%A8%E5%9B%9B%E5%A4%A7%E5%AD%A6%E9%99%A2%E9%9B%86%E5%90%88",
-    "heat": ""
-   },
-   {
-    "t": "二次元虎哥的来时路",
-    "url": "https://search.bilibili.com/all?keyword=%E4%BA%8C%E6%AC%A1%E5%85%83%E8%99%8E%E5%93%A5%E7%9A%84%E6%9D%A5%E6%97%B6%E8%B7%AF",
-    "heat": ""
-   },
-   {
-    "t": "老叟戏顽童但暑假作业",
-    "url": "https://search.bilibili.com/all?keyword=%E8%80%81%E5%8F%9F%E6%88%8F%E9%A1%BD%E7%AB%A5%E4%BD%86%E6%9A%91%E5%81%87%E4%BD%9C%E4%B8%9A",
-    "heat": ""
-   }
-  ],
-  "百度": [
-   {
-    "t": "生命至上闻令而动 最大限度减少伤亡",
-    "url": "https://m.baidu.com/s?word=%E7%94%9F%E5%91%BD%E8%87%B3%E4%B8%8A%E9%97%BB%E4%BB%A4%E8%80%8C%E5%8A%A8+%E6%9C%80%E5%A4%A7%E9%99%90%E5%BA%A6%E5%87%8F%E5%B0%91%E4%BC%A4%E4%BA%A1&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "西藏泥石流已致3人遇难558人失联",
-    "url": "https://m.baidu.com/s?word=%E8%A5%BF%E8%97%8F%E6%B3%A5%E7%9F%B3%E6%B5%81%E5%B7%B2%E8%87%B43%E4%BA%BA%E9%81%87%E9%9A%BE558%E4%BA%BA%E5%A4%B1%E8%81%94&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "吉隆口岸方向发现堰塞湖",
-    "url": "https://m.baidu.com/s?word=%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E6%96%B9%E5%90%91%E5%8F%91%E7%8E%B0%E5%A0%B0%E5%A1%9E%E6%B9%96&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "生命至上！各方力量向这里集结",
-    "url": "https://m.baidu.com/s?word=%E7%94%9F%E5%91%BD%E8%87%B3%E4%B8%8A%EF%BC%81%E5%90%84%E6%96%B9%E5%8A%9B%E9%87%8F%E5%90%91%E8%BF%99%E9%87%8C%E9%9B%86%E7%BB%93&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "离世老人儿子道歉 认可店主无需赔偿",
-    "url": "https://m.baidu.com/s?word=%E7%A6%BB%E4%B8%96%E8%80%81%E4%BA%BA%E5%84%BF%E5%AD%90%E9%81%93%E6%AD%89+%E8%AE%A4%E5%8F%AF%E5%BA%97%E4%B8%BB%E6%97%A0%E9%9C%80%E8%B5%94%E5%81%BF&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "农村还有多少“房主任”",
-    "url": "https://m.baidu.com/s?word=%E5%86%9C%E6%9D%91%E8%BF%98%E6%9C%89%E5%A4%9A%E5%B0%91%E2%80%9C%E6%88%BF%E4%B8%BB%E4%BB%BB%E2%80%9D&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "中元节必知这“4要3不”",
-    "url": "https://m.baidu.com/s?word=%E4%B8%AD%E5%85%83%E8%8A%82%E5%BF%85%E7%9F%A5%E8%BF%99%E2%80%9C4%E8%A6%813%E4%B8%8D%E2%80%9D&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "男子模仿沈腾走红 表情动作神还原",
-    "url": "https://m.baidu.com/s?word=%E7%94%B7%E5%AD%90%E6%A8%A1%E4%BB%BF%E6%B2%88%E8%85%BE%E8%B5%B0%E7%BA%A2+%E8%A1%A8%E6%83%85%E5%8A%A8%E4%BD%9C%E7%A5%9E%E8%BF%98%E5%8E%9F&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "店主已收到老人家属1.9万全额退款",
-    "url": "https://m.baidu.com/s?word=%E5%BA%97%E4%B8%BB%E5%B7%B2%E6%94%B6%E5%88%B0%E8%80%81%E4%BA%BA%E5%AE%B6%E5%B1%9E1.9%E4%B8%87%E5%85%A8%E9%A2%9D%E9%80%80%E6%AC%BE&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "家长花7980元送小学生去大厂上班",
-    "url": "https://m.baidu.com/s?word=%E5%AE%B6%E9%95%BF%E8%8A%B17980%E5%85%83%E9%80%81%E5%B0%8F%E5%AD%A6%E7%94%9F%E5%8E%BB%E5%A4%A7%E5%8E%82%E4%B8%8A%E7%8F%AD&sa=fyb_news",
-    "heat": ""
-   }
-  ]
- }
+ ]
 };
