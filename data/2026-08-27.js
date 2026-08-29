@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-08-27"]={
  "date": "2026-08-27",
- "updated": "15:05",
+ "updated": "12:19",
  "items": [
   {
    "t": "《变形金刚》擎天柱配音演员彼得·库伦去世，享年85岁",
