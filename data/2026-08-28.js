@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-08-28"]={
  "date": "2026-08-28",
- "updated": "12:19",
+ "updated": "09:42",
  "items": [
   {
    "t": "一次性纸杯会释放大量微塑料",
@@ -48,7 +48,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-08-28"]={
    "src": "机核",
    "cat": "游戏",
    "ts": "2026-08-28T22:30:00+08:00",
-   "sum": "在ChinaJoy期间，我有幸参加了一场《异克斯小队》的线下试玩，也就是最近在科隆游戏展上放出新片的三人联机PVE动作射击游戏。 哪怕把游戏本身放在一边，作为一次线下闭门试玩来说，也是体验不错的。出于其三人联机PVE的本质，我与另外两位来自其他媒体的老师组成了一队，由我担任队长，一起简单体验了这款游戏，结下了战友情。是的，我们这个行业偶尔也是能出现一些同行情谊的。 《异克斯小队》由加拿大知名团队 Behaviour Interactive研发，国内由腾讯游戏发行，STC游戏产品部合作出品。海外由 Level Infinite 发行，TEAM SHOOTER & CREATIVE合作出品。游戏将 …（截断，全文见原文）",
+   "sum": "作者：萝卜 在ChinaJoy期间，我有幸参加了一场《异克斯小队》的线下试玩，也就是最近在科隆游戏展上放出新片的三人联机PVE动作射击游戏。 哪怕把游戏本身放在一边，作为一次线下闭门试玩来说，也是体验不错的。出于其三人联机PVE的本质，我与另外两位来自其他媒体的老师组成了一队，由我担任队长，一起简单体验了这款游戏，结下了战友情。是的，我们这个行业偶尔也是能出现一些同行情谊的。 《异克斯小队》由加拿大知名团队 Behaviour Interactive研发，国内由腾讯游戏发行，STC游戏产品部合作出品。海外由 Level Infinite 发行，TEAM SHOOTER & CREATIVE合作 …（截断，全文见原文）",
    "img": "data/img/2026-08-28_04.png",
    "comment": ""
   },
@@ -130,6 +130,16 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-08-28"]={
    "ts": "2026-08-28T18:49:29+08:00",
    "sum": "德国的 Sovereign Tech 基金将在未来两年资助 Flatpak 项目 508,640 欧元，帮助 Flatpak 打造更安全、更完善的沙盒平台。Flatpak 是 Red Hat 主导开发的 Linux 应用打包格式，类似 Canonical 主导的 Snap，它提供了一个沙盒环​​境，其中运行的应用与系统其他部分隔离。这笔资金将用于开发：围绕 PipeWire 的音频隔离功能，网络隔离的新功能，第三方 VPN 应用能管理系统级连接，辅助写作，密码自动填充，等等。",
    "img": "",
+   "comment": ""
+  },
+  {
+   "t": "漂浮歌单|让你无限放松的独立音乐电台",
+   "url": "https://www.gcores.com/radios/219006",
+   "src": "机核",
+   "cat": "文化",
+   "ts": "2026-08-28T18:30:00+08:00",
+   "sum": "最近泡泡岛官宣了十一期间的江浙沪站全阵容，在各个平台都收获到了很多的期待和认可。 这次泡泡岛邀请到了十余组海外独立音乐人们，那本期节目会为大家推荐阵容里的一些音乐人和作品，如果大家对这期的音乐感兴趣，我觉得也非常适合在去到线下，感受他们的live氛围。 🎵歌单时间线 开场音乐： 《As it was》——PREP（音乐节阵容） 03:54《Sexy to Someone》Clairo 08:27《Limitless》Sudan Archives（音乐节阵容） 12:54《Frost Park》Frost Children（音乐节阵容） 17:26《After The Earthquake》Al …（截断，全文见原文）",
+   "img": "data/img/2026-08-28_13.jpg",
    "comment": ""
   },
   {
