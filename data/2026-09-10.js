@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-09-10"]={
  "date": "2026-09-10",
- "updated": "09:29",
+ "updated": "09:35",
  "items": [
   {
    "t": "OpenAI 声称解决了 Navier-Stokes 问题，但引发了利用未发布成果的争议",
