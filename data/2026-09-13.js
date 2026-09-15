@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-09-13"]={
  "date": "2026-09-13",
- "updated": "09:43",
+ "updated": "09:54",
  "items": [
   {
    "t": "中国移动已支持国行 iPhone 18 Pro / Duo 的 eSIM 业务办理",
@@ -10,6 +10,16 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-09-13"]={
    "ts": "2026-09-13T23:45:27+08:00",
    "sum": "IT之家 9 月 13 日消息，据“中国移动手机俱乐部”，中国移动即日起，已全量支持国行 iPhone 18 Pro、iPhone 18 Pro Max 以及 iPhone Duo 的 eSIM 手机业务办理。该业务目前仅面向中国大陆国行版本手机开放，海外版本暂不支持。建议用户购机前确认终端版本，以免影响 eSIM 业务正常开通与使用。 据悉，用户购买终端后，携带身份证及手机前往中国移动自有营业厅，即有专人协助完成 eSIM 开通。办理流程目前已非常完善顺畅， 一般 5 分钟内即可完成 。 另外，对于新上市的 Apple Watch Series 12、Apple Watch Ultra 4， …（截断，全文见原文）",
    "img": "data/img/2026-09-13_00.png",
+   "comment": ""
+  },
+  {
+   "t": "宇树如何将机器狗的价格降至 2000 美元",
+   "url": "https://www.solidot.org/story?sid=85366",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-09-13T23:23:42+08:00",
+   "sum": "宇树的机器狗除了做些花哨动作外可能用处不大，但它拥有一个巨大的优势：价格极其平民。George Mason 大学的机器人专家 Xuesu Xiao 教授称，十年前只有少数团队从事四足机器人的运动控制研究，因为只有这些团队能制造四足机器人，宇树进入市场之后推动了四足机器人运动控制研究的普及化。他的实验室里有四台宇树的四足机器人，每台售价约 1.5 万美元，以及一台波士顿动力的四足机器人 Spot，起售价 7.5 万美元。波士顿动力原本是这一领域的领导者，它在 2016 年 6 月发布了电动版的四足机器人 Spot，但直到 2020 年才上市销售。而宇树创始人王兴兴在 2016 年创办公司之后第二 …（截断，全文见原文）",
+   "img": "",
    "comment": ""
   },
   {
@@ -83,6 +93,16 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-09-13"]={
    "comment": ""
   },
   {
+   "t": "Matt Mullenweg 据报道恢复了对 Automattic 的控制",
+   "url": "https://www.solidot.org/story?sid=85365",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-09-13T22:20:20+08:00",
+   "sum": "被董事会强制休假的 Matt Mullenweg 称恢复了 Automattic CEO 的职务。Automattic 可能发生了类似 OpenAI 的小型“未遂政变”。Automattic 旗下包括 Wordpress.com、Tumblr 和 Beeper 等业务。本周早些时候 Mullenweg 通过公司 Slack 频道指责首席财务官 Mark Davies 与董事会串通，董事会投票决定由 Davies 担任临时 CEO。两天后，Mullenweg 称董事会已重新达成一致，他本人恢复了对 Automattic 控制。而 Davies 的 Slack 账户则被停用了，Automattic …（截断，全文见原文）",
+   "img": "",
+   "comment": ""
+  },
+  {
    "t": "AL夺得《英雄联盟》LPL 2026总冠军",
    "url": "https://www.gcores.com/articles/219662",
    "src": "机核",
@@ -90,6 +110,16 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-09-13"]={
    "ts": "2026-09-13T21:03:12+08:00",
    "sum": "在《英雄联盟》LPL 2026年总决赛现场，AL 以3比1 击败了 BLG 战队。AL 战队不仅捧起队史首座银龙杯，更将作为LPL赛区一号种子出征2026全球总决赛。同时，Tarzan 获得2026 LPL 总决赛 FMVP 。",
    "img": "data/img/2026-09-13_08.jpg",
+   "comment": ""
+  },
+  {
+   "t": "北京全面限制无人机",
+   "url": "https://www.solidot.org/story?sid=85364",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-09-13T21:01:57+08:00",
+   "sum": "北京市政府公布了新修订的《北京市无人驾驶航空器管理规定》，全面限制无人机。《规定》将自 2026 年 11 月 15 日起实施。《规定》明确，本市行政区域全域为无人驾驶航空器管制空域，禁止在本市行政区域内实施无人驾驶航空器飞行活动，禁止在本市行政区域内持有、存放无人驾驶航空器及其核心部件，禁止运输、携带无人驾驶航空器及其核心部件进入本市行政区域。《规定》还要求特殊保障单位应当建立安全管理制度，明确管理责任，防止发生安全事件，特殊保障情形的飞行活动严格按照国家有关规定执行。",
+   "img": "",
    "comment": ""
   },
   {
@@ -109,7 +139,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-09-13"]={
    "cat": "世界",
    "ts": "2026-09-13T20:25:11+08:00",
    "sum": "雅各布·考克森（Jacob Coxon）向BBC表示，如果不遏制人工智能的發展速度，人工智能有很大機會導致人類滅絕。",
-   "img": "data/img/2026-09-13_10.jpg",
+   "img": "data/img/2026-09-13_13.jpg",
    "comment": ""
   },
   {
@@ -119,7 +149,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-09-13"]={
    "cat": "世界",
    "ts": "2026-09-13T18:56:43+08:00",
    "sum": "金磚峰會《新德里宣言》呼籲對伊朗戰爭「最大克制」卻不點名美國。而習近平七年首訪印度，中印關係解凍了嗎？",
-   "img": "data/img/2026-09-13_11.jpg",
+   "img": "data/img/2026-09-13_14.jpg",
    "comment": ""
   },
   {
