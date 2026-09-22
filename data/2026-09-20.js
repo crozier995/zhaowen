@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-09-20"]={
  "date": "2026-09-20",
- "updated": "09:42",
+ "updated": "09:54",
  "items": [
   {
    "t": "美国俄勒冈州数据中心用电量接近总用电量的四分之一",
