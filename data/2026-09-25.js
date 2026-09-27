@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-09-25"]={
  "date": "2026-09-25",
- "updated": "10:02",
+ "updated": "09:50",
  "items": [
   {
    "t": "比尔 · 盖茨呼吁美国立法监管 AI 开发：没有人会认为只靠行业自律就够了",
