@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-09-26"]={
  "date": "2026-09-26",
- "updated": "09:50",
+ "updated": "09:59",
  "items": [
   {
    "t": "Anthropic Claude 刷新物理学世界纪录：单挑基于杨振宁理论 9 圈难题",
