@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-10-04"]={
  "date": "2026-10-04",
- "updated": "10:24",
+ "updated": "11:20",
  "items": [
   {
    "t": "机器人格斗公司 REK 举办真人与机器人笼斗赛被叫停：未取得许可组织活动",
