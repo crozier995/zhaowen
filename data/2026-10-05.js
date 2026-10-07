@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-10-05"]={
  "date": "2026-10-05",
- "updated": "11:20",
+ "updated": "10:42",
  "items": [
   {
    "t": "OpenAI 将在欧盟为 ChatGPT 和 Codex 文本输出添加隐形水印",
