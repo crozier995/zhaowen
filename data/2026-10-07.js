@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-10-07"]={
  "date": "2026-10-07",
- "updated": "10:58",
+ "updated": "11:05",
  "items": [
   {
    "t": "自定义系统，让玩法变得花样更多：《高达 异轨征途》媒体联访小记",
