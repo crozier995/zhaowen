@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-10-08"]={
  "date": "2026-10-08",
- "updated": "11:05",
+ "updated": "10:47",
  "items": [
   {
    "t": "《GTA6》再遭泄漏，男主全身裸体“曝光”",
@@ -70,6 +70,16 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-10-08"]={
    "ts": "2026-10-08T20:34:52+08:00",
    "sum": "與新冠病毒不同，肺鼠疫要等到症狀出現後才能傳播，通常在24小時內。症狀嚴重且明顯，因此後續個案可在傳播發生前被迅速辨識、隔離並治療。",
    "img": "data/img/2026-10-08_06.jpg",
+   "comment": ""
+  },
+  {
+   "t": "苹果 CEO 最爱的汽车品牌，要推出新超跑了",
+   "url": "https://www.ifanr.com/1683229?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "src": "爱范儿",
+   "cat": "科技",
+   "ts": "2026-10-08T20:24:31+08:00",
+   "sum": "保时捷要靠「厚利寡销」翻盘。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "img": "",
    "comment": ""
   },
   {
