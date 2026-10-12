@@ -1,7 +1,187 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-10-11"]={
  "date": "2026-10-11",
- "updated": "10:12",
+ "updated": "10:39",
  "items": [
+  {
+   "t": "李杰回应一加 16 不支持全局 185Hz：产品追求体验优先，屏幕暂时做不到",
+   "url": "https://www.ithome.com/1/011/715.htm",
+   "src": "IT之家",
+   "cat": "科技",
+   "ts": "2026-10-11T23:28:59+08:00",
+   "sum": "IT之家 10 月 11 日消息，一加中国区总裁李杰今日在微博评论区回应关于一加 16 屏幕刷新率相关问题， 据其介绍，一加 16 追求体验优先，不是参数优先。要同时兼顾流畅，功耗，发热，屏幕显示效果，现在的屏幕技术 暂时做不到全局 185Hz 。全局高刷要做到常用常开，目前最佳体验就是全局 165Hz，欢迎大家上手一加 16 去对比其他手机。 IT之家注意到，在 10 月 9 日的第四代东方屏技术沟通会上，一加与京东方联合研发的第四代东方屏正式发布。第四代东方屏采用全新 X4 发光材料，宣称“色彩准、高刷稳、画面亮、功耗低、寿命长”；支持真硬件 1nit，夜间看屏幕，柔和不刺眼。 第四代东方 …（截断，全文见原文）",
+   "img": "data/img/2026-10-11_00.png",
+   "comment": ""
+  },
+  {
+   "t": "曝苹果新一代 Apple TV 4K 内置麦克风、Siri Remote 遥控器将配扬声器便于查找",
+   "url": "https://www.ithome.com/1/011/714.htm",
+   "src": "IT之家",
+   "cat": "科技",
+   "ts": "2026-10-11T23:20:30+08:00",
+   "sum": "IT之家 10 月 11 日消息，苹果将在本周二举行“欢迎回家”活动，主角预计是 HomeView 智能家庭中枢，除此之外还有新款 HomePod mini 和 Apple TV 4K。 据彭博社记者马克 · 古尔曼今日透露， 新款 Apple TV 4K 将在 10 月 30 日发售 ，苹果已在这款新品中测试内置麦克风，用户直接说出 Siri 就能进行语音交互。 IT之家了解到，现款 Apple TV 4K 仅在 Siri Remote 中带有麦克风，用户必须对着遥控器或 HomePod 说话，才能使用 Siri。 同时，苹果还将重新设计 Siri Remote 遥控器， 这款配件将内置扬声 …（截断，全文见原文）",
+   "img": "data/img/2026-10-11_01.jpg",
+   "comment": ""
+  },
+  {
+   "t": "消息称 OLED 屏新款 iPad mini 售价将大幅上涨，或接近 799 美元",
+   "url": "https://www.ithome.com/1/011/713.htm",
+   "src": "IT之家",
+   "cat": "商业",
+   "ts": "2026-10-11T23:12:21+08:00",
+   "sum": "IT之家 10 月 11 日消息，彭博社记者马克 · 古尔曼今天表示，苹果计划本月晚些时候推出新款 iPad mini。新机的起步存储空间可能会有所提升， 但有意换机的用户得提前做好涨价的准备 。 古尔曼透露，新款 iPad mini 售价相比现款机型将大幅上涨，预计将接近 799 美元 （IT之家注：现汇率约合 5,359 元人民币） 。作为对比，现款 iPad mini 7 价格为 599 美元 （现汇率约合 4,017 元人民币） /4,799 元人民币。 据悉，新款 iPad mini 将首次采用 OLED 屏幕，配备重新设计的机身。预计将拥有全新扬声器系统，搭载性能更强的芯片。目前我 …（截断，全文见原文）",
+   "img": "data/img/2026-10-11_02.jpg",
+   "comment": ""
+  },
+  {
+   "t": "古尔曼：苹果计划在多个直营店举办 iPhone Duo 大型体验活动，最多摆出 150 台以上样机",
+   "url": "https://www.ithome.com/1/011/712.htm",
+   "src": "IT之家",
+   "cat": "科技",
+   "ts": "2026-10-11T23:01:19+08:00",
+   "sum": "IT之家 10 月 11 日消息，彭博社记者马克 · 古尔曼今天在新一期《Power On》通讯透露，苹果正在为其首款折叠屏手机 iPhone Duo 谋划声势浩大的展示活动， 让每一位潜在顾客都能充分体验这款新品 。 古尔曼表示，苹果将在美国各地的 Apple Store 直营店摆出大量样机，供到来的顾客上手体验。 预计纽约第五大道的旗舰店将布置超 150 台体验机 ，分布在上手区和展示设施中。苹果总部 Apple Park 游客中心预计将展出 100 台 iPhone Duo。 同时，芝加哥密歇根大街、洛杉矶葛洛夫购物中心和曼哈顿上西城的 Apple Store 预计将提供 30-40 台 …（截断，全文见原文）",
+   "img": "data/img/2026-10-11_03.jpg",
+   "comment": ""
+  },
+  {
+   "t": "最尴尬的事儿 核聚变篇第二辑【赛博告解室】",
+   "url": "https://www.gcores.com/radios/220608",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-10-11T23:00:00+08:00",
+   "sum": "本期时间轴制作：猪猪米 赛博告解室限时复活第二辑。10月24、25日，核聚变2026·北京站将在北京石景山 · 首钢国际会展中心 1、3 号馆开幕，今天节目依旧集结了同事们，讲讲历年核聚变经历过各种尴尬疯了的，需要忏悔的事。 关于【核聚变2026·北京站】 https://site.gcores.com/fusion2026_bj/ <获取2026北京核聚变门票> ✦展会时间：2026年10月24日-10月25日 ✦展会地点：北京 · 石景山首钢国际会展中心1/3号馆 ✦票务平台：哔哩哔哩会员购",
+   "img": "data/img/2026-10-11_04.jpg",
+   "comment": ""
+  },
+  {
+   "t": "消息称荣耀 WIN Pad 平板搭载 8.4 英寸 240Hz OLED 屏，本月发布",
+   "url": "https://www.ithome.com/1/011/711.htm",
+   "src": "IT之家",
+   "cat": "科技",
+   "ts": "2026-10-11T22:55:18+08:00",
+   "sum": "IT之家 10 月 11 日消息，据博主 @体验more 爆料，荣耀 WIN Pad 平板搭载第五代骁龙 8 至尊版处理器，配备 8.4 英寸 240Hz OLED 平板、主动散热风扇，和 iQOO Pad Pro 都是本月发布。 据博主 @数码闲聊站 于 9 月 21 日爆料， 荣耀 WIN2 系列 +WIN Pad 小平板确定 10 月发布 。据其爆料，荣耀 WIN2 系列顶配搭载骁龙 8EE6（第六代骁龙 8 超级至尊版处理器）+ 主动散热风扇 + 超高刷 OLED ，今年唯一万级大电池的 2nm 新机。小平板搭载骁龙 8E5（第五代骁龙 8 至尊版处理器）+ 主动散热风扇 +8 英寸级 …（截断，全文见原文）",
+   "img": "data/img/2026-10-11_05.png",
+   "comment": ""
+  },
+  {
+   "t": "小岛秀夫确认客串某大型真人电影、某知名动画，坦言不喜欢扮演自己",
+   "url": "https://www.ithome.com/1/011/710.htm",
+   "src": "IT之家",
+   "cat": "游戏",
+   "ts": "2026-10-11T22:50:56+08:00",
+   "sum": "IT之家 10 月 11 日消息，小岛秀夫近日在 KOJI10 广播节目透露，他已确定客串某部真人电影和某动画。这位游戏制作人曾出演日剧《别班》，还参与过《疯狂动物城 2》日语配音。 ▲ 小岛秀夫图源：小岛工作室 小岛秀夫在节目中表示：“有导演和其他人邀请我出演。其中一部是大型真人电影，另一部则是一部知名动画作品。” 据IT之家了解，小岛秀夫正在忙于两个 3A 游戏项目：恐怖游戏《OD》、谍报游戏《PHYSINT》。但根据他本人所述，他自己已幕后为其他项目录制过台词，并客串了一款尚未公布名称的游戏。 小岛秀夫认为， 演戏只是自己的副业 ， 他不喜欢在荧幕中扮演自己 ，而是更喜欢尝试其他角色或不 …（截断，全文见原文）",
+   "img": "data/img/2026-10-11_06.jpg",
+   "comment": ""
+  },
+  {
+   "t": "古尔曼：苹果首款智能家庭中枢定名 HomeView，搭载 A18 芯片、四种配色可选",
+   "url": "https://www.ithome.com/1/011/709.htm",
+   "src": "IT之家",
+   "cat": "科技",
+   "ts": "2026-10-11T22:36:10+08:00",
+   "sum": "IT之家 10 月 11 日消息，彭博社记者马克 · 古尔曼今日在新一期《Power On》通讯中透露，苹果首款智能家庭中枢名为“HomeView”，预计将在 10 月 13 日的“欢迎回家”活动正式发布，11 月出货。 据介绍，这款产品的外观设计类似 iMac G4“台灯电脑”，采用悬浮式屏幕，下方配有扬声器底座。 该设备将搭载 A18 芯片 ，官方还将推出壁挂安装版本。 IT之家从原报道获悉， 这款新产品将提供深空灰、银色、星光色和粉色四种配色 ，壁挂版仅有深空灰、银色两种配色。 古尔曼表示，这款产品主要使用语音交互， 以 AI Siri 为核心 。用户可以在房间另一端查看设备显示内容，并 …（截断，全文见原文）",
+   "img": "data/img/2026-10-11_07.png",
+   "comment": ""
+  },
+  {
+   "t": "英国水果蔬菜营养价值下降最高五成",
+   "url": "https://www.solidot.org/story?sid=85580",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-10-11T22:27:04+08:00",
+   "sum": "Deep Science Ventures 研究人员的一项研究发现，英国水果和蔬菜的营养价值自 1960 年代以来减少最高五成。英国民众现在需要食用两倍数量的蔬菜，才能摄入与 60 年前同等水平的矿物质如钾、镁或铜。许多农作物中几种关键营养素的含量减少了 20%-50%。营养和维生素含量的下降主要归因于土壤质量的退化，以及作物在育种时过度追求快速生长，而忽视了其营养价值。正使用减肥药物的人群面临的营养匮乏风险可能最大，因为减肥药会导致他们的食物摄入量显著减少。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "LineageOS 24 释出",
+   "url": "https://www.solidot.org/story?sid=85579",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-10-11T22:16:29+08:00",
+   "sum": "Android 社区发行版项目 LineageOS 释出了基于 Android 17 的 LineageOS 24。2026 年 12 月 24 日，LineageOS 将迎来十周年纪念。开发者表示这是一个重要的里程碑，期望继续走向下一个十年。LineageOS 24 主要变化包括：合并了截至 2026 年 10 月的安全补丁，新的图像编辑器 Canvas 可满足基本的照片编辑需求，Android TV 启动器 Catapult；为移动设备和掌机添加电量指示器；一系列应用更新，等等。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "猛踩踏板：索尼公布《疯狂出租车：极速环游》「巴西地图」宣传视频",
+   "url": "https://www.gcores.com/articles/220762",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-10-11T21:33:00+08:00",
+   "sum": "索尼互动娱乐于日前公布了《疯狂出租车：极速环游》「巴西地图」宣传视频。据悉，玩家可以猛踩踏板，体验这个以澎湃激情而闻名的国度。太阳虽已落山，巴西永远不眠！每个转弯都能遇见惊艳美景，更有提神咖啡让人精神倍增。 <内嵌内容，请前往机核查看> 在《疯狂出租车》中，玩家可驾驶出租车一边载客一边痛快狂飙，在刺激迭起的驾驶体验中，畅享不同于传统赛车游戏的独特乐趣。同时，也可在游戏中尽享由知名音乐人制作、以摇滚为主要风格的精彩配乐。",
+   "img": "data/img/2026-10-11_10.png",
+   "comment": ""
+  },
+  {
+   "t": "《Squadron 42》上架 Steam 平台，预计 2027 年二季度发售",
+   "url": "https://www.solidot.org/story?sid=85578",
+   "src": "Solidot",
+   "cat": "游戏",
+   "ts": "2026-10-11T20:12:09+08:00",
+   "sum": "《星际公民(Star Citizen)》的独立单机战役《Squadron 42》上架 Steam 平台，预计 2027 年二季度发售 。《星际公民》由《银河飞将》创始人 Chris Roberts 领导开发，试图复兴太空模拟飞行游戏，允许玩家在广袤的宇宙空间内探险，交易和战斗。它于 2012 年在 Kickstarter 上成功众筹，原计划的交付时间是 2014 年。但在 Kickstarter 众筹结束后，开发团队继续在官方网站上进行募资，许多募资其实就是销售游戏内的虚拟物品如各种型号的飞船。和多人网游《星际公民》一样，单机战役《Squadron 42》的交付时间也不断延期，2024 年宣布 …（截断，全文见原文）",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "【传言】英伟达停产RTX 5090，旗舰芯片全面转向工作站",
+   "url": "https://www.gcores.com/articles/220759",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-10-11T18:36:51+08:00",
+   "sum": "据知名爆料者 MEGAsizeGPU 透露，英伟达已停止向 GeForce RTX 5090 供货 GB202 芯片，未来所有 GB202 芯片将转为工作站显卡独占。作为基于 Blackwell 架构的旗舰级芯片，GB202 并未在 RTX 5090 上发挥全部性能。 爆料者 hongxing2020 也确认 RTX 5090 停产，包括中国特供的D系列在内均停止销售。根据工厂内部通知，配备24GB显存的 RTX 5080 将接棒成为最顶级的 GeForce 显卡，而16GB版本面临停产。这与之前流传的 RTX 5080 SUPER 传闻十分吻合。 据悉，GB202 芯片同时被用于配备96GB …（截断，全文见原文）",
+   "img": "data/img/2026-10-11_12.jpg",
+   "comment": ""
+  },
+  {
+   "t": "澤連斯基譴責美俄柴油交易，特朗普稱「烏克蘭該換總統了」",
+   "url": "https://www.bbc.com/zhongwen/articles/ck0j0g16e8j8o/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-10-11T15:08:18+08:00",
+   "sum": "烏克蘭領導人曾表示，與俄羅斯達成向美國輸送柴油的協議將有助於莫斯科為戰爭籌集資金。",
+   "img": "data/img/2026-10-11_13.jpg",
+   "comment": ""
+  },
+  {
+   "t": "種族歧視風波爆發時，與Lisa共處一室是什麼感受？",
+   "url": "https://www.bbc.com/zhongwen/articles/cw30empz9qyvo/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-10-11T14:44:19+08:00",
+   "sum": "紀錄片導演蘇·金談到，她如何以前所未有的近距離接觸K-pop偶像Lisa，見證其最坦率真實的一面。",
+   "img": "data/img/2026-10-11_14.jpg",
+   "comment": ""
+  },
+  {
+   "t": "BBC報道印尼校長涉嫌性侵學生後 該校長被警方拘捕",
+   "url": "https://www.bbc.com/zhongwen/articles/cm0rlz8jvje5o/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-10-11T14:21:28+08:00",
+   "sum": "前學生自行展開調查，多年來持續蒐集證據，以及其他表示曾遭校長侵害者的證詞。",
+   "img": "data/img/2026-10-11_15.jpg",
+   "comment": ""
+  },
+  {
+   "t": "DDR4 内存重出江湖，PC 终于癫成我不认识的样子",
+   "url": "https://www.ifanr.com/1683529?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "src": "爱范儿",
+   "cat": "科技",
+   "ts": "2026-10-11T12:30:19+08:00",
+   "sum": "买新不如修旧 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "[289]老豆闲谈-听儿子说说旷野之息",
+   "url": "https://www.gcores.com/radios/220754",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-10-11T10:51:20+08:00",
+   "sum": "本期是一个特别的节目，豆豆和儿子对谈。 聊聊小登最近玩塞尔达的感觉。 算是对生活的记录吧，等几年之后小登自己再回听的时候，不知道是什么感受。 小朋友的言论属于童言无忌，大家轻喷~感谢~ ღ( ´･ᴗ･` )",
+   "img": "data/img/2026-10-11_17.jpg",
+   "comment": ""
+  },
   {
    "t": "星际荣耀官宣重型型号“双曲线九号”火箭已启动预研",
    "url": "https://www.ithome.com/1/011/564.htm",
@@ -209,7 +389,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-10-11"]={
    "cat": "世界",
    "ts": "2026-10-11T09:12:43+08:00",
    "sum": "美沙冬戒毒治療成為台北地方選舉議題，討論熱烈，香港早於半世紀前已開展門診計劃，BBC中文梳理其發展歷史，剖析社會迷思。",
-   "img": "data/img/2026-10-11_20.jpg",
+   "img": "data/img/2026-10-11_38.jpg",
    "comment": ""
   },
   {
@@ -249,7 +429,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-10-11"]={
    "cat": "生活",
    "ts": "2026-10-11T08:41:33+08:00",
    "sum": "如果你表面上看起來很快樂，內心卻飽受煎熬，你可能患有非典型抑鬱症。然而，隱藏真實感受可能對心理健康造成傷害。",
-   "img": "data/img/2026-10-11_24.jpg",
+   "img": "data/img/2026-10-11_42.jpg",
    "comment": ""
   },
   {
@@ -282,163 +462,5 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-10-11"]={
    "img": "data/img/2026-10-11_27.jpg",
    "comment": ""
   }
- ],
- "hot": {
-  "微博": [
-   {
-    "t": "大二专科生称靠切片三年赚七百万",
-    "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E4%BA%8C%E4%B8%93%E7%A7%91%E7%94%9F%E7%A7%B0%E9%9D%A0%E5%88%87%E7%89%87%E4%B8%89%E5%B9%B4%E8%B5%9A%E4%B8%83%E7%99%BE%E4%B8%87",
-    "heat": "287万"
-   },
-   {
-    "t": "虎鲸妈妈带幼崽尸体十七天",
-    "url": "https://s.weibo.com/weibo?q=%E8%99%8E%E9%B2%B8%E5%A6%88%E5%A6%88%E5%B8%A6%E5%B9%BC%E5%B4%BD%E5%B0%B8%E4%BD%93%E5%8D%81%E4%B8%83%E5%A4%A9",
-    "heat": "145万"
-   },
-   {
-    "t": "发展新质生产力要坚持先立后破",
-    "url": "https://s.weibo.com/weibo?q=%E5%8F%91%E5%B1%95%E6%96%B0%E8%B4%A8%E7%94%9F%E4%BA%A7%E5%8A%9B%E8%A6%81%E5%9D%9A%E6%8C%81%E5%85%88%E7%AB%8B%E5%90%8E%E7%A0%B4",
-    "heat": "132万"
-   },
-   {
-    "t": "在曼谷失联摄影师已回国",
-    "url": "https://s.weibo.com/weibo?q=%E5%9C%A8%E6%9B%BC%E8%B0%B7%E5%A4%B1%E8%81%94%E6%91%84%E5%BD%B1%E5%B8%88%E5%B7%B2%E5%9B%9E%E5%9B%BD",
-    "heat": "126万"
-   },
-   {
-    "t": "利雅得机场遭袭致12死309伤",
-    "url": "https://s.weibo.com/weibo?q=%E5%88%A9%E9%9B%85%E5%BE%97%E6%9C%BA%E5%9C%BA%E9%81%AD%E8%A2%AD%E8%87%B412%E6%AD%BB309%E4%BC%A4",
-    "heat": "89万"
-   },
-   {
-    "t": "梅艳芳骨灰被盗",
-    "url": "https://s.weibo.com/weibo?q=%E6%A2%85%E8%89%B3%E8%8A%B3%E9%AA%A8%E7%81%B0%E8%A2%AB%E7%9B%97",
-    "heat": "82万"
-   },
-   {
-    "t": "女子长期鼻塞查出患癌",
-    "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E9%95%BF%E6%9C%9F%E9%BC%BB%E5%A1%9E%E6%9F%A5%E5%87%BA%E6%82%A3%E7%99%8C",
-    "heat": "50万"
-   },
-   {
-    "t": "明知不该买房却想要自己的家",
-    "url": "https://s.weibo.com/weibo?q=%E6%98%8E%E7%9F%A5%E4%B8%8D%E8%AF%A5%E4%B9%B0%E6%88%BF%E5%8D%B4%E6%83%B3%E8%A6%81%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AE%B6",
-    "heat": "44万"
-   },
-   {
-    "t": "台湾民众在台北街头高喊要统一",
-    "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E6%B9%BE%E6%B0%91%E4%BC%97%E5%9C%A8%E5%8F%B0%E5%8C%97%E8%A1%97%E5%A4%B4%E9%AB%98%E5%96%8A%E8%A6%81%E7%BB%9F%E4%B8%80",
-    "heat": "42万"
-   },
-   {
-    "t": "AI把数学干废了",
-    "url": "https://s.weibo.com/weibo?q=AI%E6%8A%8A%E6%95%B0%E5%AD%A6%E5%B9%B2%E5%BA%9F%E4%BA%86",
-    "heat": "33万"
-   }
-  ],
-  "B站": [
-   {
-    "t": "外媒称5090显卡或将停产",
-    "url": "https://search.bilibili.com/all?keyword=%E5%A4%96%E5%AA%92%E7%A7%B05090%E6%98%BE%E5%8D%A1%E6%88%96%E5%B0%86%E5%81%9C%E4%BA%A7",
-    "heat": ""
-   },
-   {
-    "t": "MOUZ战胜Spirit挺进决赛",
-    "url": "https://search.bilibili.com/all?keyword=MOUZ%E6%88%98%E8%83%9CSpirit%E6%8C%BA%E8%BF%9B%E5%86%B3%E8%B5%9B",
-    "heat": ""
-   },
-   {
-    "t": "俄罗斯不明肺炎为何引发关注",
-    "url": "https://search.bilibili.com/all?keyword=%E4%BF%84%E7%BD%97%E6%96%AF%E4%B8%8D%E6%98%8E%E8%82%BA%E7%82%8E%E4%B8%BA%E4%BD%95%E5%BC%95%E5%8F%91%E5%85%B3%E6%B3%A8",
-    "heat": ""
-   },
-   {
-    "t": "沙特机场遇袭致12死309伤",
-    "url": "https://search.bilibili.com/all?keyword=%E6%B2%99%E7%89%B9%E6%9C%BA%E5%9C%BA%E9%81%87%E8%A2%AD%E8%87%B412%E6%AD%BB309%E4%BC%A4",
-    "heat": ""
-   },
-   {
-    "t": "怎么看国乒教练王皓遭辱骂事件",
-    "url": "https://search.bilibili.com/all?keyword=%E6%80%8E%E4%B9%88%E7%9C%8B%E5%9B%BD%E4%B9%92%E6%95%99%E7%BB%83%E7%8E%8B%E7%9A%93%E9%81%AD%E8%BE%B1%E9%AA%82%E4%BA%8B%E4%BB%B6",
-    "heat": ""
-   },
-   {
-    "t": "皇马1-0比利亚雷亚尔",
-    "url": "https://search.bilibili.com/all?keyword=%E7%9A%87%E9%A9%AC1-0%E6%AF%94%E5%88%A9%E4%BA%9A%E9%9B%B7%E4%BA%9A%E5%B0%94",
-    "heat": ""
-   },
-   {
-    "t": "原生家庭对心理健康的影响",
-    "url": "https://search.bilibili.com/all?keyword=%E5%8E%9F%E7%94%9F%E5%AE%B6%E5%BA%AD%E5%AF%B9%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7%E7%9A%84%E5%BD%B1%E5%93%8D",
-    "heat": ""
-   },
-   {
-    "t": "休宁凯北京游学记",
-    "url": "https://search.bilibili.com/all?keyword=%E4%BC%91%E5%AE%81%E5%87%AF%E5%8C%97%E4%BA%AC%E6%B8%B8%E5%AD%A6%E8%AE%B0",
-    "heat": ""
-   },
-   {
-    "t": "UP主科普猫的睡眠模式",
-    "url": "https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E7%A7%91%E6%99%AE%E7%8C%AB%E7%9A%84%E7%9D%A1%E7%9C%A0%E6%A8%A1%E5%BC%8F",
-    "heat": ""
-   },
-   {
-    "t": "6小时看完民国悬疑新剧",
-    "url": "https://search.bilibili.com/all?keyword=6%E5%B0%8F%E6%97%B6%E7%9C%8B%E5%AE%8C%E6%B0%91%E5%9B%BD%E6%82%AC%E7%96%91%E6%96%B0%E5%89%A7",
-    "heat": ""
-   }
-  ],
-  "百度": [
-   {
-    "t": "以创新赢未来",
-    "url": "https://m.baidu.com/s?word=%E4%BB%A5%E5%88%9B%E6%96%B0%E8%B5%A2%E6%9C%AA%E6%9D%A5&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "沙特利雅得机场遭袭 致12死309伤",
-    "url": "https://m.baidu.com/s?word=%E6%B2%99%E7%89%B9%E5%88%A9%E9%9B%85%E5%BE%97%E6%9C%BA%E5%9C%BA%E9%81%AD%E8%A2%AD+%E8%87%B412%E6%AD%BB309%E4%BC%A4&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "中国旅客：在机场听到巨响多人被吓哭",
-    "url": "https://m.baidu.com/s?word=%E4%B8%AD%E5%9B%BD%E6%97%85%E5%AE%A2%EF%BC%9A%E5%9C%A8%E6%9C%BA%E5%9C%BA%E5%90%AC%E5%88%B0%E5%B7%A8%E5%93%8D%E5%A4%9A%E4%BA%BA%E8%A2%AB%E5%90%93%E5%93%AD&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "中国新能源产业做对了什么",
-    "url": "https://m.baidu.com/s?word=%E4%B8%AD%E5%9B%BD%E6%96%B0%E8%83%BD%E6%BA%90%E4%BA%A7%E4%B8%9A%E5%81%9A%E5%AF%B9%E4%BA%86%E4%BB%80%E4%B9%88&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "男子国庆被排7天班 1天都没去遭开除",
-    "url": "https://m.baidu.com/s?word=%E7%94%B7%E5%AD%90%E5%9B%BD%E5%BA%86%E8%A2%AB%E6%8E%927%E5%A4%A9%E7%8F%AD+1%E5%A4%A9%E9%83%BD%E6%B2%A1%E5%8E%BB%E9%81%AD%E5%BC%80%E9%99%A4&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "香港近年多位名人骨灰被盗",
-    "url": "https://m.baidu.com/s?word=%E9%A6%99%E6%B8%AF%E8%BF%91%E5%B9%B4%E5%A4%9A%E4%BD%8D%E5%90%8D%E4%BA%BA%E9%AA%A8%E7%81%B0%E8%A2%AB%E7%9B%97&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "交警上班发现：单位门口这辆车不对劲",
-    "url": "https://m.baidu.com/s?word=%E4%BA%A4%E8%AD%A6%E4%B8%8A%E7%8F%AD%E5%8F%91%E7%8E%B0%EF%BC%9A%E5%8D%95%E4%BD%8D%E9%97%A8%E5%8F%A3%E8%BF%99%E8%BE%86%E8%BD%A6%E4%B8%8D%E5%AF%B9%E5%8A%B2&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "台湾民众在台北街头高喊我们要统一",
-    "url": "https://m.baidu.com/s?word=%E5%8F%B0%E6%B9%BE%E6%B0%91%E4%BC%97%E5%9C%A8%E5%8F%B0%E5%8C%97%E8%A1%97%E5%A4%B4%E9%AB%98%E5%96%8A%E6%88%91%E4%BB%AC%E8%A6%81%E7%BB%9F%E4%B8%80&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "俄罗斯“鼠疫”疑云",
-    "url": "https://m.baidu.com/s?word=%E4%BF%84%E7%BD%97%E6%96%AF%E2%80%9C%E9%BC%A0%E7%96%AB%E2%80%9D%E7%96%91%E4%BA%91&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "人社部：全面推进“退休预服务”",
-    "url": "https://m.baidu.com/s?word=%E4%BA%BA%E7%A4%BE%E9%83%A8%EF%BC%9A%E5%85%A8%E9%9D%A2%E6%8E%A8%E8%BF%9B%E2%80%9C%E9%80%80%E4%BC%91%E9%A2%84%E6%9C%8D%E5%8A%A1%E2%80%9D&sa=fyb_news",
-    "heat": ""
-   }
-  ]
- }
+ ]
 };
