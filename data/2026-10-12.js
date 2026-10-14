@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-10-12"]={
  "date": "2026-10-12",
- "updated": "11:54",
+ "updated": "10:10",
  "items": [
   {
    "t": "亚马逊放弃 Fire 品牌改为推出 Alexa 平板",
