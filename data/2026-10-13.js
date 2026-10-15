@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-10-13"]={
  "date": "2026-10-13",
- "updated": "10:10",
+ "updated": "09:51",
  "items": [
   {
    "t": "不能打电话、发短信：华为官网显示手机与手机间通信共享只支持共享网络能力（含 eSIM）",
@@ -223,6 +223,16 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-10-13"]={
    "comment": ""
   },
   {
+   "t": "全家畅看《余红旧事》：爱奇艺黄金会员 + 京东 PLUS 年卡 168 元发车",
+   "url": "https://www.ithome.com/1/012/497.htm",
+   "src": "IT之家",
+   "cat": "科技",
+   "ts": "2026-10-13T18:07:22+08:00",
+   "sum": "爱奇艺黄金会员年卡 + 京东 PLUS 年卡日常售价 258 元，11.11 大促价 168 元： 京东 爱奇艺黄金 VIP 会员年卡 加京东 PLUS 会员年卡 168 元 直达链接 如果需要爱奇艺白金卡，京东联合会员到手价为 248 元： 京东 爱奇艺白金 VIP 会员年卡 + 支持电视端 加京东 PLUS 会员年卡 券后 248 元 领 20 元券 京东 11.11 红包至高 26888 元无门槛可用，每天可抽一次： 点此抽取 。 京东 PLUS 会员：官方售价 299 元 / 年 爱奇艺黄金会员：官方售价 248 元 / 年 京东 PLUS 年卡赠 12 积分，可用于： 5 积分换 2 …（截断，全文见原文）",
+   "img": "data/img/2026-10-13_22.png",
+   "comment": ""
+  },
+  {
    "t": "中期選舉前夕油價降不下，特朗普難題加劇",
    "url": "https://www.bbc.com/zhongwen/articles/cxzd63n7e631o/trad?at_medium=RSS&at_campaign=rss",
    "src": "BBC中文",
@@ -349,7 +359,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-10-13"]={
    "cat": "世界",
    "ts": "2026-10-13T13:31:07+08:00",
    "sum": "一艘被辨識為中國海上民兵船的漁船，8月在台灣東部外海與另外兩艘中國船隻共同活動。軍事學者向BBC中文分析，這類船隻可能有海上監控、情報蒐集等任務。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/16bb/live/713ffcd0-c6c2-11f1-9a39-31b474234113.jpg",
+   "img": "data/img/2026-10-13_35.jpg",
    "comment": ""
   },
   {
