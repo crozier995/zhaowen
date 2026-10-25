@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-10-23"]={
  "date": "2026-10-23",
- "updated": "10:00",
+ "updated": "09:40",
  "items": [
   {
    "t": "男子醉酒后车机自动报警被判不构成自首：系统可以替你报警但不能替你自首",
