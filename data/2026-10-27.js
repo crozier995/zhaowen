@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-10-27"]={
  "date": "2026-10-27",
- "updated": "10:35",
+ "updated": "10:54",
  "items": [
   {
    "t": "维基百科如何清理 AI 生成文本",
