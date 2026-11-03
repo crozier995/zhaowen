@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-01"]={
  "date": "2026-11-01",
- "updated": "10:45",
+ "updated": "12:03",
  "items": [
   {
    "t": "米哈游生活模拟游戏《星布谷地》官宣 2027 年登陆任天堂 Switch 2",
