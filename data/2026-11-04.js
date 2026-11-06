@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-04"]={
  "date": "2026-11-04",
- "updated": "11:44",
+ "updated": "11:40",
  "items": [
   {
    "t": "Firefox 测试迷你窗口功能",
