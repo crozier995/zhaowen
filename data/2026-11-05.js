@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-05"]={
  "date": "2026-11-05",
- "updated": "11:40",
+ "updated": "11:13",
  "items": [
   {
    "t": "盖棺论定说生软（上）：三个医生的龙之狂想",
@@ -29,6 +29,26 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-05"]={
    "cat": "科技",
    "ts": "2026-11-05T22:00:13+08:00",
    "sum": "触控向左，算力向右 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "23.98 万元起！智己 LS8 NEO 正式上市，转向刹车全面线控",
+   "url": "https://www.ifanr.com/1688228?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "src": "爱范儿",
+   "cat": "科技",
+   "ts": "2026-11-05T20:44:28+08:00",
+   "sum": "全面线控已成智己核心能力。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "你记忆里的那台两座小车回来了！smart #2 上市，9.99 万元起",
+   "url": "https://www.ifanr.com/1688208?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "src": "爱范儿",
+   "cat": "科技",
+   "ts": "2026-11-05T20:39:38+08:00",
+   "sum": "经典回归。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
    "img": "",
    "comment": ""
   },
