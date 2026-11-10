@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-08"]={
  "date": "2026-11-08",
- "updated": "10:59",
+ "updated": "12:47",
  "items": [
   {
    "t": "古尔曼称苹果 Siri AI 团队或迎大调整，工程副总裁罗克韦尔考虑明年走人",
