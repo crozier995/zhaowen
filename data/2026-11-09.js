@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-09"]={
  "date": "2026-11-09",
- "updated": "12:47",
+ "updated": "11:04",
  "items": [
   {
    "t": "玛莎拉蒂将与尊界联合造车，首发车型或为双门 GT，明年正式量产",
