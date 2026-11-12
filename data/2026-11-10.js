@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-10"]={
  "date": "2026-11-10",
- "updated": "11:04",
+ "updated": "12:19",
  "items": [
   {
    "t": "波士顿动力为其人形机器人加入了轮子",
@@ -9,6 +9,16 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-10"]={
    "cat": "科学",
    "ts": "2026-11-10T23:58:19+08:00",
    "sum": "波士顿动力通过官方 YouTube 频道公布了一则新视频，展示了其人形机器人 Atlas 改用轮子在地面上移动。视频展示了 Atlas 能通过足部的轮子用脚尖旋转，以及做出其它高强度的动作。Atlas 能在平坦地面上的快速滚动与应对障碍物或不规则地面的关节式腿部运动之间实现平滑切换。Atlas 项目控制工程师 Andy Wu 称，系统在模拟环境中进行了训练，在模拟环境中学会所有动作后能在现实世界中以高准确度执行出来。Atlas 转换到移动模式仅需一个定制的适配器，就能将现有的滑板车轮毂安装到 Atlas 原有的踝关节执行器上。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "比大更大，塞进 7 个座位的领克 900L，在等一个「上桌吃饭」的时间",
+   "url": "https://www.ifanr.com/1688954?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "src": "爱范儿",
+   "cat": "科技",
+   "ts": "2026-11-10T23:50:31+08:00",
+   "sum": "领克得加快脚步了。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
    "img": "",
    "comment": ""
   },
@@ -40,6 +50,16 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-10"]={
    "ts": "2026-11-10T22:00:00+08:00",
    "sum": "由TamagawaSoft历时8年打造的2D动作冒险游戏《遗迹之岛与旅行猫又》，将于2027年1月19日正式登陆Steam。游戏以掩映在森林中的古代遗迹为舞台，玩家将在其中展开旅程。Steam版预计售价为69人民币。此外，游戏也已确定将移植至Nintendo Switch平台，具体发售日期尚未公布。 目前，Steam平台已推出可游玩超过1小时的免费试玩版。 Steam商店页面 ：https://store.steampowered.com/app/2686820/ 试玩版商店页面（可体验约1～2小时的游戏内容）： https://store.steampowered.com/app/31909 …（截断，全文见原文）",
    "img": "data/img/2026-11-10_03.webp",
+   "comment": ""
+  },
+  {
+   "t": "Formula 2030 亮相，最帅极星来了！",
+   "url": "https://www.ifanr.com/1688935?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "src": "爱范儿",
+   "cat": "科技",
+   "ts": "2026-11-10T21:11:00+08:00",
+   "sum": "极星式设计的集大成之作。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "img": "",
    "comment": ""
   },
   {
