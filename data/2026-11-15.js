@@ -1,7 +1,117 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-15"]={
  "date": "2026-11-15",
- "updated": "11:07",
+ "updated": "11:10",
  "items": [
+  {
+   "t": "听完这期，搞清楚游戏里的所有反派！解析《影之刃零》里的局",
+   "url": "https://www.gcores.com/radios/222021",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-11-15T23:00:00+08:00",
+   "sum": "本期时间轴制作：天行 庞镇的乱，是谁布下的局？ 侠客的刃，又该向何处去？ 如果你觉得《影之刃零》里的故事不够吸引你，那不如来试试这期节目。",
+   "img": "data/img/2026-11-15_00.jpg",
+   "comment": ""
+  },
+  {
+   "t": "SpaceX 成功回收火箭上面级",
+   "url": "https://www.solidot.org/story?sid=85893",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-11-15T22:38:30+08:00",
+   "sum": "SpaceX 再次创造了历史，首次成功回收 Starship 火箭的上面级，此前它已经成功回收了 Starship 的推进器。此次代号为 Flight 15/Starlink Group 31-2 的任务原计划同时回收火箭上面级和推进器，但推进器 Booster 22 在发射后不久启动了终止程序，在海面上受控爆炸。上面级 Ship 42 则绕地球飞行 14 圈历经 22.5 小时后于周六在 Starbase 被 2 号发射台的筷子臂成功捕获。此次任务发射了 22 颗 Starlink V3 卫星。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "意大利因 Meta 侵犯用户隐私对其处以 8.05 亿欧元罚款",
+   "url": "https://www.solidot.org/story?sid=85892",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-11-15T21:51:56+08:00",
+   "sum": "因 Meta 的 Android 版 Facebook 应用未经用户明确同意或充分披露的情况下访问用户的手机相册和视频，意大利监管机构对其处以 8.05 亿欧元罚款。调查人员发现，该功能默认开启，而 Facebook 在申请访问用户相册权限时，将该权限与多种不同用途的应用功能捆绑在一起，通过单一授权请求获取访问权。意大利要求 Meta 在 60 天内禁用该功能，对该功能的启用额外征求用户同意。意大利约有 2000 万 Android 用户，此次罚款是意大利对科技巨头开出的金额最高的罚单之一。意大利监管机构表示，在做出处罚决定时，考虑了受影响人数巨大以及 Meta 不配合等因素。对这一处罚，Me …（截断，全文见原文）",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "香港迪士尼乐园 1.7 万张电子门票被盗",
+   "url": "https://www.solidot.org/story?sid=85891",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-11-15T21:15:41+08:00",
+   "sum": "香港迪士尼乐园约 1.7 万张电子门票在票务系统中被盗，园方已报警并暂停网上售票及酒店预订服务。官网声明，旅客需要购票，欢迎到合作旅行社及平台或正门入口售票处。报道称，乐园门票由 Cityline 负责网上票务售卖，园方资讯科技部于 11 月 12 日晚侦测到公司电脑系统有异常活动，发现一万七千个二维码在网上票务系统被盗。香港资讯科技商会荣誉会长方保侨称：以往黑客是写程序或手动追漏洞，现在 AI 发展令黑客用 AI 寻找网络漏洞，从而攻击，近期这么多事件，我们相信只会愈来愈多。因为 AI 攻击太快，人手根本抵挡不到，开始提倡用 AI 防守，而市面上亦有这些方案。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "亚洲象种群数量减少变得更孤立",
+   "url": "https://www.solidot.org/story?sid=85890",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-11-15T20:12:20+08:00",
+   "sum": "对斯里兰卡野生亚洲象的一项为期 12 年的研究显示，种群数量的逐渐减少可令动物社群跨越一个社会临界点，从而使长期形成的关系破裂，群体变得更小且更孤立，并威胁物种的长期生存。研究人员分析了斯里兰卡 443 头野生雌性亚洲象为期 12 年的个体观察数据。M他们发现，种群个体的逐渐流失使这一亚洲象种群跨越了社会临界点，从根本上重塑了其社会网络。随着死亡和永久离群的个体日益超过新加入的个体，象群规模变小、群体数量增多且日益孤立；到2018 年时，在最初被追踪的雌象中，近 69% 已从研究种群中消失。研究结果显示，这种碎片化不仅由个体丧失驱动，也由留存大象之间较弱社会纽带的断裂所驱动，从而导致整个种群个 …（截断，全文见原文）",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "黃仁勳被召出席參議院聽證 商務部長盧特尼克受波及同須作證",
+   "url": "https://www.bbc.com/zhongwen/articles/c9j3km83x5z2o/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-11-15T18:32:00+08:00",
+   "sum": "在被揭露婚外情後，黃仁勳於週四突然辭去了全球最有價值的公司之一的總裁職務。",
+   "img": "data/img/2026-11-15_05.jpg",
+   "comment": ""
+  },
+  {
+   "t": "六年磨一「球」，好听、好看、好贵｜HomePod mini 2 体验",
+   "url": "https://www.ifanr.com/1689473?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "src": "爱范儿",
+   "cat": "科技",
+   "ts": "2026-11-15T18:00:17+08:00",
+   "sum": "小身材，大嗓门 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "澤連斯基：美國提出烏克蘭讓出頓巴斯以換取加入北約",
+   "url": "https://www.bbc.com/zhongwen/articles/cqgm3vnx3zx3o/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-11-15T15:30:56+08:00",
+   "sum": "美國尚未證實烏克蘭總統的言論——一位美國官員告訴BBC，「許多想法仍在討論中」。",
+   "img": "data/img/2026-11-15_07.jpg",
+   "comment": ""
+  },
+  {
+   "t": "Nvidia黃仁勳醜聞如何令親商的新加坡大感頭疼",
+   "url": "https://www.bbc.com/zhongwen/articles/cq39gn7g7depo/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-11-15T14:46:06+08:00",
+   "sum": "黃仁勳的醜聞使外界開始關注新加坡作為半導體貿易中心的成功——以及其是否成為非法貿易行為場所的疑問。",
+   "img": "data/img/2026-11-15_08.jpg",
+   "comment": ""
+  },
+  {
+   "t": "白宮確認特朗普、習近平和普京將在深圳APEC期間舉行歷史性三方會晤",
+   "url": "https://www.bbc.com/zhongwen/articles/c6lym29v7nr0o/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-11-15T14:04:05+08:00",
+   "sum": "一位發言人表示，特朗普（川普）將在這次歷史性的三國會談中討論「削減核武」的問題。",
+   "img": "data/img/2026-11-15_09.jpg",
+   "comment": ""
+  },
+  {
+   "t": "台灣村里長：最基層的民選公職，如何牽動選舉動員與兩岸關係？",
+   "url": "https://www.bbc.com/zhongwen/articles/c6kg7mdzj12no/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-11-15T12:28:35+08:00",
+   "sum": "村里長是台灣最基層的民選公職，因為掌握地方人脈，在社區服務與選舉動員中扮演重要角色。近年部分里長赴中國交流，引發北京透過基層網絡影響台灣政治的疑慮。BBC中文走訪台灣多個縣市，訪問三位不同世代、不同政治背景的里長，探討地方政治、兩岸交流與統戰之間的界線。",
+   "img": "data/img/2026-11-15_10.jpg",
+   "comment": ""
+  },
   {
    "t": "刚刚，马斯克再创历史，人类首次用「筷子」夹住星舰飞船",
    "url": "https://www.ifanr.com/1689501?utm_source=rss&utm_medium=rss&utm_campaign=",
@@ -99,7 +209,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-15"]={
    "cat": "游戏",
    "ts": "2026-11-15T10:00:00+08:00",
    "sum": "由 NiuGamer 发行、二狗科技开发的真人互动影视作品《东北往事》（DONGDA Gangster）现已正式登陆 Xbox 与 PlayStation 5 平台，Nintendo Switch 版将于11月26日正式发售。游戏将玩家带回上世纪80、90年代暗流汹涌的中国东北街头，在这个新旧秩序交替的时代，你将扮演主角赵红兵，在兄弟义气、地盘争夺与红颜羁绊的漩涡中，走出独属于你的江湖之路。 <内嵌内容，请前往机核查看> PlayStation游戏页面： https://store.playstation.com/zh-hans-hk/concept/10019990 XBOX游戏页面： ht …（截断，全文见原文）",
-   "img": "data/img/2026-11-15_09.jpg",
+   "img": "data/img/2026-11-15_20.jpg",
    "comment": ""
   },
   {
@@ -269,7 +379,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-15"]={
    "cat": "游戏",
    "ts": "2026-11-15T08:02:03+08:00",
    "sum": "哔哩哔哩电竞 BLG 于今日在纽约布鲁克林巴克莱中心以3比1击败韩国 LCK 赛区的 Gen.G， 首次夺得《英雄联盟》全球总决赛冠军。同时，FMVP 给到了 Knight 选手。 在此前的半决赛中，BLG 以3:1击败卫冕冠军T1，这也是 T1 首次在全球总决赛五局三胜淘汰赛中输给 LPL 队伍，T1 连续三年夺冠的纪录随之终结。 加上决赛，BLG 在本届赛事击败了全部四支 LCK 参赛队伍。 这是 LPL 赛区自2021年 EDward Gaming 夺冠后的首座全球总决赛冠军，也是 LPL 赛区历史的第四次S赛夺冠。",
-   "img": "data/img/2026-11-15_26.jpg",
+   "img": "data/img/2026-11-15_37.jpg",
    "comment": ""
   },
   {
@@ -279,7 +389,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-15"]={
    "cat": "游戏",
    "ts": "2026-11-15T06:14:40+08:00",
    "sum": "在2026英雄联盟全球总决赛期间，游戏研发团队正式揭晓了《英雄联盟：曙光》。这是一项涵盖游戏多个层面、上线以来最大规模的全面更新，预计将于2027年正式上线。 <内嵌内容，请前往机核查看> 据悉，《英雄联盟：曙光》 将带来包括全面现代化升级的游戏客户端、焕然一新的召唤师峡谷地图与视觉表现、持续进化的游戏玩法，以及让玩家以全新方式体验自己喜爱的英雄等一系列精彩内容。",
-   "img": "data/img/2026-11-15_27.jpg",
+   "img": "data/img/2026-11-15_38.jpg",
    "comment": ""
   },
   {
@@ -292,163 +402,5 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-15"]={
    "img": "",
    "comment": ""
   }
- ],
- "hot": {
-  "微博": [
-   {
-    "t": "Bin成为LPL历史首位大满贯上路选手",
-    "url": "https://s.weibo.com/weibo?q=Bin%E6%88%90%E4%B8%BALPL%E5%8E%86%E5%8F%B2%E9%A6%96%E4%BD%8D%E5%A4%A7%E6%BB%A1%E8%B4%AF%E4%B8%8A%E8%B7%AF%E9%80%89%E6%89%8B",
-    "heat": "505万"
-   },
-   {
-    "t": "青稚 白小纯",
-    "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E7%A8%9A%20%E7%99%BD%E5%B0%8F%E7%BA%AF",
-    "heat": "148万"
-   },
-   {
-    "t": "4分钟读懂APEC",
-    "url": "https://s.weibo.com/weibo?q=4%E5%88%86%E9%92%9F%E8%AF%BB%E6%87%82APEC",
-    "heat": "115万"
-   },
-   {
-    "t": "BLG夺冠引来半个娱乐圈",
-    "url": "https://s.weibo.com/weibo?q=BLG%E5%A4%BA%E5%86%A0%E5%BC%95%E6%9D%A5%E5%8D%8A%E4%B8%AA%E5%A8%B1%E4%B9%90%E5%9C%88",
-    "heat": "114万"
-   },
-   {
-    "t": "BLG夺冠Tim送iPhoneDuo",
-    "url": "https://s.weibo.com/weibo?q=BLG%E5%A4%BA%E5%86%A0Tim%E9%80%81iPhoneDuo",
-    "heat": "110万"
-   },
-   {
-    "t": "boss直聘暂停要求带咖啡公司账号权限",
-    "url": "https://s.weibo.com/weibo?q=boss%E7%9B%B4%E8%81%98%E6%9A%82%E5%81%9C%E8%A6%81%E6%B1%82%E5%B8%A6%E5%92%96%E5%95%A1%E5%85%AC%E5%8F%B8%E8%B4%A6%E5%8F%B7%E6%9D%83%E9%99%90",
-    "heat": "101万"
-   },
-   {
-    "t": "疑似后会友期白小纯表白王子璇路透",
-    "url": "https://s.weibo.com/weibo?q=%E7%96%91%E4%BC%BC%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E7%99%BD%E5%B0%8F%E7%BA%AF%E8%A1%A8%E7%99%BD%E7%8E%8B%E5%AD%90%E7%92%87%E8%B7%AF%E9%80%8F",
-    "heat": "91万"
-   },
-   {
-    "t": "孩子觉得打包丢人被老师扣分引热议",
-    "url": "https://s.weibo.com/weibo?q=%E5%AD%A9%E5%AD%90%E8%A7%89%E5%BE%97%E6%89%93%E5%8C%85%E4%B8%A2%E4%BA%BA%E8%A2%AB%E8%80%81%E5%B8%88%E6%89%A3%E5%88%86%E5%BC%95%E7%83%AD%E8%AE%AE",
-    "heat": "48万"
-   },
-   {
-    "t": "央行重大调整",
-    "url": "https://s.weibo.com/weibo?q=%E5%A4%AE%E8%A1%8C%E9%87%8D%E5%A4%A7%E8%B0%83%E6%95%B4",
-    "heat": "40万"
-   },
-   {
-    "t": "难怪白敬亭印象中宋亚轩很安静",
-    "url": "https://s.weibo.com/weibo?q=%E9%9A%BE%E6%80%AA%E7%99%BD%E6%95%AC%E4%BA%AD%E5%8D%B0%E8%B1%A1%E4%B8%AD%E5%AE%8B%E4%BA%9A%E8%BD%A9%E5%BE%88%E5%AE%89%E9%9D%99",
-    "heat": "40万"
-   }
-  ],
-  "B站": [
-   {
-    "t": "BLG夺冠",
-    "url": "https://search.bilibili.com/all?keyword=BLG%E5%A4%BA%E5%86%A0",
-    "heat": ""
-   },
-   {
-    "t": "B站送大会员庆祝BLG夺冠",
-    "url": "https://search.bilibili.com/all?keyword=B%E7%AB%99%E9%80%81%E5%A4%A7%E4%BC%9A%E5%91%98%E5%BA%86%E7%A5%9DBLG%E5%A4%BA%E5%86%A0",
-    "heat": ""
-   },
-   {
-    "t": "央视新闻祝贺BLG夺冠",
-    "url": "https://search.bilibili.com/all?keyword=%E5%A4%AE%E8%A7%86%E6%96%B0%E9%97%BB%E7%A5%9D%E8%B4%BABLG%E5%A4%BA%E5%86%A0",
-    "heat": ""
-   },
-   {
-    "t": "米勒泪撒BLG夺冠现场",
-    "url": "https://search.bilibili.com/all?keyword=%E7%B1%B3%E5%8B%92%E6%B3%AA%E6%92%92BLG%E5%A4%BA%E5%86%A0%E7%8E%B0%E5%9C%BA",
-    "heat": ""
-   },
-   {
-    "t": "夏安将直播采访BLG选手",
-    "url": "https://search.bilibili.com/all?keyword=%E5%A4%8F%E5%AE%89%E5%B0%86%E7%9B%B4%E6%92%AD%E9%87%87%E8%AE%BFBLG%E9%80%89%E6%89%8B",
-    "heat": ""
-   },
-   {
-    "t": "Knight首位国产冠军中单",
-    "url": "https://search.bilibili.com/all?keyword=Knight%E9%A6%96%E4%BD%8D%E5%9B%BD%E4%BA%A7%E5%86%A0%E5%86%9B%E4%B8%AD%E5%8D%95",
-    "heat": ""
-   },
-   {
-    "t": "弹幕合影和新华社一起恭喜BLG",
-    "url": "https://search.bilibili.com/all?keyword=%E5%BC%B9%E5%B9%95%E5%90%88%E5%BD%B1%E5%92%8C%E6%96%B0%E5%8D%8E%E7%A4%BE%E4%B8%80%E8%B5%B7%E6%81%AD%E5%96%9CBLG",
-    "heat": ""
-   },
-   {
-    "t": "BLG夺冠赞歌 仰望星空",
-    "url": "https://search.bilibili.com/all?keyword=BLG%E5%A4%BA%E5%86%A0%E8%B5%9E%E6%AD%8C%20%E4%BB%B0%E6%9C%9B%E6%98%9F%E7%A9%BA",
-    "heat": ""
-   },
-   {
-    "t": "Flandre赛后发文庆祝",
-    "url": "https://search.bilibili.com/all?keyword=Flandre%E8%B5%9B%E5%90%8E%E5%8F%91%E6%96%87%E5%BA%86%E7%A5%9D",
-    "heat": ""
-   },
-   {
-    "t": "Knight发文问冠军皮肤选什么",
-    "url": "https://search.bilibili.com/all?keyword=Knight%E5%8F%91%E6%96%87%E9%97%AE%E5%86%A0%E5%86%9B%E7%9A%AE%E8%82%A4%E9%80%89%E4%BB%80%E4%B9%88",
-    "heat": ""
-   }
-  ],
-  "百度": [
-   {
-    "t": "亚太共此时",
-    "url": "https://m.baidu.com/s?word=%E4%BA%9A%E5%A4%AA%E5%85%B1%E6%AD%A4%E6%97%B6&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "S16总决赛：中国战队BLG逆转夺冠",
-    "url": "https://m.baidu.com/s?word=S16%E6%80%BB%E5%86%B3%E8%B5%9B%EF%BC%9A%E4%B8%AD%E5%9B%BD%E6%88%98%E9%98%9FBLG%E9%80%86%E8%BD%AC%E5%A4%BA%E5%86%A0&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "95岁美国老人一口青海话",
-    "url": "https://m.baidu.com/s?word=95%E5%B2%81%E7%BE%8E%E5%9B%BD%E8%80%81%E4%BA%BA%E4%B8%80%E5%8F%A3%E9%9D%92%E6%B5%B7%E8%AF%9D&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "本周多领域硬核成果刷屏",
-    "url": "https://m.baidu.com/s?word=%E6%9C%AC%E5%91%A8%E5%A4%9A%E9%A2%86%E5%9F%9F%E7%A1%AC%E6%A0%B8%E6%88%90%E6%9E%9C%E5%88%B7%E5%B1%8F&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "央视曝光假牛肉案",
-    "url": "https://m.baidu.com/s?word=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E5%81%87%E7%89%9B%E8%82%89%E6%A1%88&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "Bin成为LPL历史首位大满贯上路选手",
-    "url": "https://m.baidu.com/s?word=Bin%E6%88%90%E4%B8%BALPL%E5%8E%86%E5%8F%B2%E9%A6%96%E4%BD%8D%E5%A4%A7%E6%BB%A1%E8%B4%AF%E4%B8%8A%E8%B7%AF%E9%80%89%E6%89%8B&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "巴基斯坦等17国 发表联合声明",
-    "url": "https://m.baidu.com/s?word=%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E7%AD%8917%E5%9B%BD+%E5%8F%91%E8%A1%A8%E8%81%94%E5%90%88%E5%A3%B0%E6%98%8E&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "连休5天！多地官宣新假期",
-    "url": "https://m.baidu.com/s?word=%E8%BF%9E%E4%BC%915%E5%A4%A9%EF%BC%81%E5%A4%9A%E5%9C%B0%E5%AE%98%E5%AE%A3%E6%96%B0%E5%81%87%E6%9C%9F&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "ON：24年失败的悔恨 终于能得到原谅",
-    "url": "https://m.baidu.com/s?word=ON%EF%BC%9A24%E5%B9%B4%E5%A4%B1%E8%B4%A5%E7%9A%84%E6%82%94%E6%81%A8+%E7%BB%88%E4%BA%8E%E8%83%BD%E5%BE%97%E5%88%B0%E5%8E%9F%E8%B0%85&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "BLG夺冠刷屏半个娱乐圈",
-    "url": "https://m.baidu.com/s?word=BLG%E5%A4%BA%E5%86%A0%E5%88%B7%E5%B1%8F%E5%8D%8A%E4%B8%AA%E5%A8%B1%E4%B9%90%E5%9C%88&sa=fyb_news",
-    "heat": ""
-   }
-  ]
- }
+ ]
 };
