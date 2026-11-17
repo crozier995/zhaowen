@@ -1,6 +1,6 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-15"]={
  "date": "2026-11-15",
- "updated": "11:10",
+ "updated": "13:14",
  "items": [
   {
    "t": "听完这期，搞清楚游戏里的所有反派！解析《影之刃零》里的局",
