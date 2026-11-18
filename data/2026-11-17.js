@@ -1,7 +1,277 @@
 window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-17"]={
  "date": "2026-11-17",
- "updated": "13:14",
+ "updated": "12:43",
  "items": [
+  {
+   "t": "谁能告诉我，Roguelike到底是什么：详细介绍“柏林诠释”",
+   "url": "https://www.gcores.com/radios/222327",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-11-17T23:00:00+08:00",
+   "sum": "本期时间轴制作：猪猪米 我们来聊聊“什么是Roguelike”这个话题。现在聊起肉鸽，回想起很多特定的玩法模块，这种特质的原因，来自于roguelike现代化的汹涌浪潮。而就在这浪潮的开端年份，有一群roguelike爱好者想要为这一从80年代延续至今的概念定义，这就是“柏林诠释”。虽然柏林诠释是一个提出即过时的概念，但它却对我们思考roguelike到底是什么，它的趣味在哪里提供了极佳的参考。“盗贼（Rogue）”有一千个面孔，映出电子游戏世界的无尽可能性。",
+   "img": "data/img/2026-11-17_00.jpg",
+   "comment": ""
+  },
+  {
+   "t": "中國以AI奇境接待各國領袖，但他們看不到的另一面是什麼？",
+   "url": "https://www.bbc.com/zhongwen/articles/crgj360lnqv6o/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-11-17T19:44:02+08:00",
+   "sum": "離開深圳充滿科技感的天際線後，你將會看到習近平治下中國所面臨的種種挑戰。",
+   "img": "data/img/2026-11-17_01.jpg",
+   "comment": ""
+  },
+  {
+   "t": "特朗普訪華之際 美國封堵中國公司在東南亞租用AI算力的「後門」",
+   "url": "https://www.bbc.com/zhongwen/articles/cmpdwn010nyvo/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-11-17T19:37:12+08:00",
+   "sum": "在美國限制最先進英偉達芯片直接銷往中國的背景下，中國大型互聯網公司和AI實驗室逐漸轉向「只租算力、不買硬件」的模式。芯片部署在第三國數據中心，中國企業再通過互聯網遠程調用算力訓練模型，而無須把相關硬件運入中國。",
+   "img": "data/img/2026-11-17_02.jpg",
+   "comment": ""
+  },
+  {
+   "t": "加州理工数学教授不再根据作业打分，因为作业很容易用 AI 完成",
+   "url": "https://www.solidot.org/story?sid=85914",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-11-17T18:22:40+08:00",
+   "sum": "加州理工教授 Yi Ni 教的是学校每一位学生都必须修的数学必修课，他仍然采用传统的授课方法，没有用笔记本电脑和投影仪，而是在黑板上写满粉笔字。在加州理工任教 17 年的 Ni 教授表示不再根据作业题目做的是否正确打分，因为学生可以使用 AI 完成作业。他现在只根据作业是否完成打分。他说，如今教育的一大问题是所有大学数学作业都可以用 AI 完成。一名数学专业学生表示自己不使用 AI，因为一旦参加线下考试就会暴露自己对 AI 的依赖。Ni 教授表示无法判断学生是否使用 AI 完成作业。因为不同于 AI 生成的有特征的文本，AI 程序非常擅长用数学语言解数学题目。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "Mac 收紧权限，苹果开始防着 AI 了",
+   "url": "https://www.ifanr.com/1689832?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "src": "爱范儿",
+   "cat": "科技",
+   "ts": "2026-11-17T18:00:27+08:00",
+   "sum": "AI 越自由，人越麻烦 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "灵晟继续登顶 Top500 榜单",
+   "url": "https://www.solidot.org/story?sid=85913",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-11-17T17:54:30+08:00",
+   "sum": "Top500 公布了 2026 年 11 月的最新超算榜单，深圳国家超算中心的灵晟第二次登顶。Top10 榜单完全没变：灵晟以 2.198 Exaflop/s 的 HPL 测试性能稳居第一，它是 Top500 榜单中首个仅靠 CPU 实现持续双精度浮点性能逾 2 Exaflops 的超算系统，灵晟使用了有 304 个核心的 LX2 CPU，总共 1379 万个核心，运行频率 1.55 GHz，操作系统是麒麟，功耗为 42.2 兆瓦。排名前十的还有；美国劳伦斯利弗莫尔国家实验室的 El Capitan，使用 AMD 第四代 EPYC 处理器，性能 1.809 Exaflop/s；橡树岭国家实验室 …（截断，全文见原文）",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
+   "url": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-11-17T17:49:49+08:00",
+   "sum": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
+   "img": "data/img/2026-11-17_06.jpg",
+   "comment": ""
+  },
+  {
+   "t": "中國AI之都：「夢想之城」深圳背後的兩個世界",
+   "url": "https://www.bbc.com/zhongwen/articles/cm7826g36xe5o/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-11-17T17:33:26+08:00",
+   "sum": "深圳被譽為中國最具未來感的城市之一。在本週的APEC峰會，中國國家主席習近平將在這裡接待包括美國總統特朗普和俄羅斯總統普京在內的多國領袖，向他們展示這座中國的人工智慧之都。但這座城市還有另一面，是領袖們看不到的。",
+   "img": "data/img/2026-11-17_07.jpg",
+   "comment": ""
+  },
+  {
+   "t": "好评如潮的《影之刃零》，有当代顶尖的服务精神 | 走神大师234",
+   "url": "https://www.gcores.com/radios/222482",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-11-17T17:33:01+08:00",
+   "sum": "好评如潮的《影之刃零》，有当代顶尖的服务精神 | 走神大师234 参与人员：LV6、化身伊陆、九十玖、箱子、修理、Lost OP&ED：心湖 —— 影之刃零音乐集 《影之刃零》专题节目到来，本期是近期参与人数最多的一期节目。我们六个人一起聊了聊《影之刃零》的游戏体验。 作为近期热度最高的游戏之一，《影之刃零》在战斗、系统、剧情等内容上表现如何？众人对这款游戏又有怎样的看法？更多详情，欢迎收听本期节目。 *录制时有两位参与者尚未通关（发布时皆已通关并白金） 本期话题： 02:45参与人员的总评 15:50战斗部分的体验 66:30想玩《影之刃零》的原因是…… 76:00BOSS战的“已读乱回” …（截断，全文见原文）",
+   "img": "data/img/2026-11-17_08.png",
+   "comment": ""
+  },
+  {
+   "t": "卡内基梅隆免费公开计算机科学课程",
+   "url": "https://www.solidot.org/story?sid=85912",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-11-17T17:25:29+08:00",
+   "sum": "卡内基梅隆大学上线了 CS Learn 平台，类似 25 年前的 MIT 开放课程 OpenCourseWare，免费提供计算机科学(CS)相关课程，相关教学视频则托管在 YouTube 上。运营者表示会陆续上传大学计算机科学系课程的完整学期讲义，涵盖各种主题，本周每天一门课程。更多课程将于明年一月上线。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "我画地为牢啊，陶陶陶陶！录音笔VOL.827",
+   "url": "https://www.gcores.com/radios/222448",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-11-17T17:00:00+08:00",
+   "sum": "【录音笔】是GPASS推出的一档会员专享节目，内容来自机核办公室日程生活和工作中的一些短小记录，每期时长十几分钟左右（大概吧）。内容也许是一些不成体统的碎碎念，也许是一些突然发疯的暴言，还有可能是哪个缺德的把办公室里真实的日常对话（dui ma）偷偷录了下来，总之就连我们自己现在也不知道每期会有哪些人参与，会录些什么。",
+   "img": "data/img/2026-11-17_10.jpg",
+   "comment": ""
+  },
+  {
+   "t": "DeepSeek 不限额的用法，都在这里了 | 附指南",
+   "url": "https://www.ifanr.com/1689869?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "src": "爱范儿",
+   "cat": "科技",
+   "ts": "2026-11-17T16:51:24+08:00",
+   "sum": "花钱接 API，导入历史记录 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "APEC深圳峰會：賴清德派施振榮出席 台灣參會空間再成焦點",
+   "url": "https://www.bbc.com/zhongwen/articles/ck5y1g89jnnxo/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-11-17T16:44:40+08:00",
+   "sum": "台灣試圖以企業家身分與科技優勢擴大能見度，中國則以原則框架維持主導權。APEC作為平台，或許能讓雙方同時在場，但仍難以消弭兩岸在全球外交參與的既有分歧。",
+   "img": "data/img/2026-11-17_12.jpg",
+   "comment": ""
+  },
+  {
+   "t": "富岳运行系统遭非法访问",
+   "url": "https://www.solidot.org/story?sid=85911",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-11-17T16:35:50+08:00",
+   "sum": "日本理化学研究所超算富岳的运行系统遭到外部非法访问，用户信息可能已经外泄。除大学等研究机构外，产业界也可使用“富岳”。因遭到非法访问，理研已暂停富岳运行，据悉恢复时间未定。遭到非法访问的是用户申请使用“富岳”时需连接的系统。受害范围取决于用户登记了多少个人信息。目前正在调查非法访问发生的时间以及被发现的经过。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "FBI 警告黑客利用 Artex 能在三小时内入侵网络",
+   "url": "https://www.solidot.org/story?sid=85910",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-11-17T16:07:03+08:00",
+   "sum": "FBI 发出警告，黑客正在利用名为 Artex 的 AI 驱动渗透测试工具，在部分情况下不到三个小时即可成功入侵网络。该工具已被发现与针对韩国金融机构、至少 2250 家 ConnectWise 客户以及 Barracuda 公司的攻击事件有关。Artex 最初是一个开源工具，开发者已将其转为闭源，但其开源版本在互联网上仍然很容易找到。Artex 会通过快速扫描受害者的网络寻找弱点，随后利用简单的安全漏洞如防护薄弱、密码泄露或被盗等建立立足点，之后借助 Artex 在网络内搜寻数据库、邮箱及其它敏感信息。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "Canonical 向订阅用户提供可选的 AI 生成安全补丁",
+   "url": "https://www.solidot.org/story?sid=85909",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-11-17T15:56:48+08:00",
+   "sum": "在 AI 辅助漏洞发现时代，漏洞发现的数量越来越多，补丁开发的速度都跟不上了。Linux 发行版 Ubuntu 开发商 Canonical 向其付费订阅用户提供了一个选项：用 AI 生成的安全补丁修复 AI 发现的漏洞。Canonical 为 Ubuntu Pro 用户提供了 AI 安全补丁库 Edge archive。Canonical 表示，它不会在稳定版本中自动合并 AI 生成的补丁，但 Ubuntu Pro 用户可以选择使用。Edge archive 中的补丁未经过全面的扩展测试与验证合格，用户可自行评估。通过常规安全渠道发布的安全更新，仍将由人工进行验证。",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "歐盟峰會前夕 貝安德稱英國脫歐「得不償失」",
+   "url": "https://www.bbc.com/zhongwen/articles/c68x0j2r8lkyo/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-11-17T15:52:53+08:00",
+   "sum": "英國首相在倫敦金融城市長晚宴上向與會人士表示，「我們得到的脫歐結果並沒有奏效」。",
+   "img": "data/img/2026-11-17_16.jpg",
+   "comment": ""
+  },
+  {
+   "t": "开始一场棋境冒险！策略新游《王国棋境》新pv公开，Demo版本将于 11 月 17 日登录steam",
+   "url": "https://www.gcores.com/articles/222457",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-11-17T15:30:00+08:00",
+   "sum": "11月17日~23日，《王国棋境》的正式Demo将于11月 7日登录Steam自走棋游戏节。同期游戏也将公布全新Demo PV，并在11月21日登陆上海Weplay游戏展B65 展位。 <内嵌内容，请前往机核查看> 《王国棋境》是一款卡牌建造+空间管理玩法的异步自走棋游戏，在此前的playtest测试中，已收获玩家广泛好评。在游戏中，玩家需要在棋盘上购买、放置和合成地块，建造兵营与支援建筑，逐步组建自己的军队。龙族、地精、野兽、亡灵等不同种族可以搭配出多种阵容；冒险途中，玩家还会遇到来访者、奇观商人等偶然事件，让每一次冒险都有变化。战斗开始后，双方的王国会组成一片战场，士兵会从双方王国自动出战 …（截断，全文见原文）",
+   "img": "data/img/2026-11-17_17.jpg",
+   "comment": ""
+  },
+  {
+   "t": "《NBA 2K27》×《GTA 6》联动宣传视频公开",
+   "url": "https://www.gcores.com/articles/222447",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-11-17T15:28:32+08:00",
+   "sum": "《NBA 2K27》×《GTA 6》联动宣传视频公开，罪恶城将席卷篮球之城与梦幻球队。官方表示，第3季期间，两大标志性系列强强联手，《GTA 6》将以一场里程碑式的盛事加入《 NBA 2K27 》，为期七周。 <内嵌内容，请前往机核查看> 据悉，这次意义非凡的联动将带来受罪恶城启发的奖励与福利，把标志性的霓虹光芒和热带氛围从街头带到球场。篮球之城全面融入罪恶城的夜间霓虹与热带风情，新增装饰艺术风格建筑、海滨球场，并对球馆进行翻新。公园区域还原了霓虹粉彩酒店与超跑街景，海滨步道旁还竖立了《GTA 6》中热门电视节目角色“鳄鱼麦卡”的雕像。 《NBA 2K27 罪恶城版》数字版将于11月27日至2 …（截断，全文见原文）",
+   "img": "data/img/2026-11-17_18.jpg",
+   "comment": ""
+  },
+  {
+   "t": "Serenity Forge 确认参展 WePlay 2026，《心跳文学部！》首度出展中国",
+   "url": "https://www.gcores.com/articles/222446",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-11-17T15:23:47+08:00",
+   "sum": "游戏开发与发行工作室 Serenity Forge 正式官宣参展 WePlay 2026 文化展。本次参展不仅是 Serenity Forge 首次亮相中国展会，也是《心跳文学部！》首次在中国市场出展。展会将于 2026 年 11 月 21 日至 22 日在上海国家会展中心 2.2 号馆举办，Serenity Forge 将在 C31 展位亮相。 Serenity Forge 成立于2014年，曾推出《去月球》《心跳文学部 Plus！》《杀死公主》等知名作品，长期致力于打造富有情感冲击力的叙事游戏。本次展位划分为三大核心区域：游戏试玩区、Serenity Forge 博物馆，以及《心跳文学部！ …（截断，全文见原文）",
+   "img": "data/img/2026-11-17_19.jpg",
+   "comment": ""
+  },
+  {
+   "t": "「讓黃仁勳回歸」運動：輝達駁斥、特朗普支持恢復其CEO職位",
+   "url": "https://www.bbc.com/zhongwen/articles/ck3rgq3l5yr1o/trad?at_medium=RSS&at_campaign=rss",
+   "src": "BBC中文",
+   "cat": "世界",
+   "ts": "2026-11-17T15:20:52+08:00",
+   "sum": "多位科技業領袖表態支持一項行動，要求這家AI晶片龍頭讓黃仁勳重返執行長職位。",
+   "img": "data/img/2026-11-17_20.jpg",
+   "comment": ""
+  },
+  {
+   "t": "【会员抽奖】光遇+动森，奇幻治愈系 MMO《灵渡之境》现已推出，支持中文",
+   "url": "https://www.gcores.com/articles/222444",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-11-17T14:52:30+08:00",
+   "sum": "曾开发《Triple Town》《Alphabear》和《Cozy Grove》的 Spry Fox 工作室正式推出《灵渡之境》（ Spirit Crossing ）。游戏现已登陆 Nintendo Switch 、Nintendo Switch 2，以及 PC 平台的 Steam 和 Epic Games Store。 游戏售价为 68元 。为庆祝发售，游戏现提供限时九折优惠。折后61.2元人民币。 Steam地址： https://store.steampowered.com/app/2321960/ 《灵渡之境》是一款治愈系 MMO，讲述玩家如何在一个陌生、美丽又不断变化的世界里建立家园 …（截断，全文见原文）",
+   "img": "data/img/2026-11-17_21.webp",
+   "comment": ""
+  },
+  {
+   "t": "Windows 收集用户计算机安装的编程智能体和开发工具",
+   "url": "https://www.solidot.org/story?sid=85908",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-11-17T14:50:24+08:00",
+   "sum": "一位开发者利用 AI 工具寻找 Windows 未记录的功能，结果发现了一个 DLL 文件记录了用户使用的编程智能体如 codex.exe、claude.exe、copilot.exe 和 cursor.exe 等，以及开发者工具如 python.exe、dotnet.exe、 gcc.exe 和 code.exe 等。该 DLL 文件是 MissionControlAggregator.dll，是一个运行中的 Windows 组件，它会将记录的信息保存在本地，报告给 Windows 诊断系统。除非用户选择退出诊断数据收集（默认启用），那么这些数据最终会发送给微软。MissionControl …（截断，全文见原文）",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "美国超大规模数据中心的用电量与部分州的总用电量相当",
+   "url": "https://www.solidot.org/story?sid=85907",
+   "src": "Solidot",
+   "cat": "科学",
+   "ts": "2026-11-17T14:11:57+08:00",
+   "sum": "根据发表在《Nature Sustainability》期刊上的一项研究，美国超大规模数据中心的用电量与部分州的总用电量相当。超大规模数据中心为云计算、大模型训练以及 AI 工具的全球部署等服务提供支撑，它们主要依赖化石燃料提供电力。研究人员利用卫星图像分析了美国 403 座超大规模数据中心，估算了它们在 2024 年 5 月至 2025 年 4 月期间不同运行负荷下的年度耗电量，根据数据中心所在地区电网的能源构成估算出其碳排放量。结果显示超大规模数据中心总用电量根据不同运行负荷在 68-99 TWh 之间，用电量上限已接近印第安纳州、密歇根州和田纳西州等州全年的总用电量。研究期间这些数据中心 …（截断，全文见原文）",
+   "img": "",
+   "comment": ""
+  },
+  {
+   "t": "《猫娘乐园 SEKAI CONNECT》Steam版将于11月18日正式上线，支持简体中文",
+   "url": "https://www.gcores.com/articles/222442",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-11-17T14:10:58+08:00",
+   "sum": "GOOD SMILE COMPANY宣布，《猫娘乐园》（NEKOPARA）系列最新作《猫娘乐园 SEKAI CONNECT》Steam版将于2026年11月18日（周三）正式上线。本作由GOOD SMILE COMPANY与NEKO WORKs共同打造，延续了《猫娘乐园》系列的世界观，并带来了全新的角色、剧情与丰富的互动玩法。游戏采用基本免费、包含游戏内购的运营模式，Steam版支持简体中文。目前，游戏的iOS及Android版本已正式推出。 全球累计销量超过700万份，《猫娘乐园》系列最新作登场 《猫娘乐园 SEKAI CONNECT》是全球累计销量超过700万份的《猫娘乐园》系列最新作品。 …（截断，全文见原文）",
+   "img": "data/img/2026-11-17_24.png",
+   "comment": ""
+  },
+  {
+   "t": "《疯狂出租车：极速环游》新地图印度公布，宣传片同步公开",
+   "url": "https://www.gcores.com/articles/222441",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-11-17T14:03:00+08:00",
+   "sum": "世嘉公布了驾驶动作游戏《疯狂出租车：极速环游》的第五张地图“印度”，玩家可在剧情模式等多种模式中体验本地图的乐趣。本作预计于2027年登陆XBOX Series X|S／XBOX on PC／PC（Steam）／PlayStation 5／Nintendo Switch 2平台。 “印度”地图宣传片同步公开，以旅行指南风格介绍印度地图的魅力。玩家可从中一睹人文与自然交织的赛道、各具特色的乘客，以及丰富的炫技玩法。 <内嵌内容，请前往机核查看> 印度地图既包含世界遗产Taj Mahal、神秘的名胜古迹与壮丽的自然风光，还有世界上历史最悠久的铁路、洋溢着独特魅力的露天市场，可以尽享印度这片土地上特 …（截断，全文见原文）",
+   "img": "data/img/2026-11-17_25.jpg",
+   "comment": ""
+  },
+  {
+   "t": "《异于天堂》公布最新预告",
+   "url": "https://www.gcores.com/articles/222440",
+   "src": "机核",
+   "cat": "游戏",
+   "ts": "2026-11-17T13:58:15+08:00",
+   "sum": "世嘉宣布，《异于天堂》系列剧情预告片第二部“吴篇”现已公开。本作将于2027年1月15日发售。系列剧情预告片将为玩家介绍本作主角·大东真贯穿1915年至1965年，跨越五个时代、五座城市的人生轨迹，着重展现大东在不同时代、不同城市结识的人们，以及他所经历的种种转折。 <内嵌内容，请前往机核查看> 本次公开的是系列预告片的第二集。“吴篇”讲述了大东真拜入岩木源造门下之后，为在组内出人头地，彻底投身于黑道世界的故事。在成为一名为了组织不择手段的黑道后，大东究竟会展现出什么样的生存之道？ 今后，我们还将陆续公开更多聚焦大东人生的系列视频，讲述他在本作各座城市中的经历。敬请期待。 《异于天堂》剧情简介 …（截断，全文见原文）",
+   "img": "data/img/2026-11-17_26.jpg",
+   "comment": ""
+  },
   {
    "t": "蔚来黔川山水人文线贯通：全长 1067 公里沿途布局 22 座充换电站，全国已建成 9860 座充换电站",
    "url": "https://www.ithome.com/1/028/227.htm",
@@ -243,13 +513,23 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-17"]={
    "comment": ""
   },
   {
+   "t": "除了人脸解锁，iPhone Duo 2 还值得哪些升级？",
+   "url": "https://www.ifanr.com/1690009?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "src": "爱范儿",
+   "cat": "科技",
+   "ts": "2026-11-17T12:00:26+08:00",
+   "sum": "那我缺的实体 SIM 卡这一块谁给我补啊 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "img": "",
+   "comment": ""
+  },
+  {
    "t": "《Hela：鼠鼠奇旅》剧情深度解析视频发布，支持四人跨平台联机",
    "url": "https://www.gcores.com/articles/222433",
    "src": "机核",
    "cat": "游戏",
    "ts": "2026-11-17T11:59:41+08:00",
    "sum": "由 Windup Games 开发、Knights Peak 全球发行、Boltray Games 中国市场发行的治愈系冒险游戏《Hela：鼠鼠奇旅》近日发布全新深度解析视频，本期内容将聚焦游戏的核心剧情，带领玩家深入探索这个充满奇幻色彩的世界。在这里，每一个微小的善举，都可能为世界带来改变。 <内嵌内容，请前往机核查看> 与此同时，官方确认，《Hela：鼠鼠奇旅》正式版将支持最多四人跨平台联机。据悉，联机功能依托 Epic 在线服务（Epic Online Services）。非 Epic 平台玩家 仅需绑定一次 Epic 账号 ，即可开启联机。 一段关于善意与陪伴的奇幻旅程 《Hela：鼠 …（截断，全文见原文）",
-   "img": "data/img/2026-11-17_24.webp",
+   "img": "data/img/2026-11-17_52.webp",
    "comment": ""
   },
   {
@@ -269,7 +549,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-17"]={
    "cat": "世界",
    "ts": "2026-11-17T10:38:11+08:00",
    "sum": "羅伯·派汀森（Robert Pattinson）早已在《暮光之城》系列、《蝙蝠俠》和《奧德賽》等電影，奠定了自己作為男主角、動作明星及演員的地位。如今，他接下詹姆士·龐德（James Bond；占士邦）一角，將使他的知名度更上一層樓。",
-   "img": "data/img/2026-11-17_26.jpg",
+   "img": "data/img/2026-11-17_54.jpg",
    "comment": ""
   },
   {
@@ -289,7 +569,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-17"]={
    "cat": "世界",
    "ts": "2026-11-17T10:09:22+08:00",
    "sum": "當世界領導人本週齊聚深圳，他們將看到一座代表中國未來的科技之城：機器人、AI、摩天大樓，處處展現蓬勃的創新活力。但這很可能只是故事的一半：因為峰會停工的建築工人、為生計奔波的零工群體，對未來有著不同的想像。",
-   "img": "data/img/2026-11-17_28.jpg",
+   "img": "data/img/2026-11-17_56.jpg",
    "comment": ""
   },
   {
@@ -299,17 +579,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-17"]={
    "cat": "游戏",
    "ts": "2026-11-17T09:30:00+08:00",
    "sum": "Treyarch 资深编剧 Craig Houston 日前在社交媒体表示，自己在 Treyarch 效力约20年后遭裁员。他表示，能与这么多才华横溢的人共事让他深感自豪，其中许多人也将是他终身的朋友。他也感谢所有粉丝多年来的热情、支持和鼓励。 据悉，此次裁员预计属于 Xbox 今年早些时候宣布的大规模重组计划的一部分。作为《使命召唤》多款游戏以及僵尸模式的核心创作者之一，Craig Houston 自2006年起便是 Treyarch 单人战役剧情的核心创作人员。他与 Jimmy Zielinski 、Jason Blundell 和 Kevin Drew 一起推动了僵尸模式的发展，使其成为 …（截断，全文见原文）",
-   "img": "data/img/2026-11-17_29.webp",
-   "comment": ""
-  },
-  {
-   "t": "《怪猎：荒野》制作人回应性能修复耗时近一年，盛赞自研引擎灵活性",
-   "url": "https://www.gcores.com/articles/222422",
-   "src": "机核",
-   "cat": "游戏",
-   "ts": "2026-11-17T09:10:00+08:00",
-   "sum": "在发售时，《怪物猎人：荒野》存在着不小的技术性能问题，卡普空花费了近一年时间才将游戏性能修复至首发应有的水准。该作制作人辻本良三则表示，如果没有自家的RE引擎，修复《怪物猎人：荒野》所耗费的时间还会长得多。 就近期卡普空多款作品取得巨大成功，辻本良三表示虽然不能说这是全部原因，但RE引擎确实是其中的一个关键因素，也是这些不同游戏得以顺利开发的原因之一。开发过程中有引擎工程师直接参与非常有帮助，这样能快速解决问题并让不同团队成员之间的沟通更顺畅。同时，使用自家引擎也能让开发团队在整个流程中随时做出更多微调。 当然，在开发和修复《怪物猎人：荒野》过程中积累的经验，也惠及了其他使用卡普空自研引擎的游 …（截断，全文见原文）",
-   "img": "data/img/2026-11-17_30.jpg",
+   "img": "data/img/2026-11-17_57.webp",
    "comment": ""
   },
   {
@@ -339,7 +609,7 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-17"]={
    "cat": "世界",
    "ts": "2026-11-17T08:34:50+08:00",
    "sum": "一些俄羅斯富豪渴望回到90年代的寡頭政治體制，當時商人掌握著權力。",
-   "img": "data/img/2026-11-17_33.jpg",
+   "img": "data/img/2026-11-17_60.jpg",
    "comment": ""
   },
   {
@@ -382,163 +652,5 @@ window.EDITIONS=window.EDITIONS||{};EDITIONS["2026-11-17"]={
    "img": "",
    "comment": ""
   }
- ],
- "hot": {
-  "微博": [
-   {
-    "t": "深圳APEC主持人阵容拉满",
-    "url": "https://s.weibo.com/weibo?q=%E6%B7%B1%E5%9C%B3APEC%E4%B8%BB%E6%8C%81%E4%BA%BA%E9%98%B5%E5%AE%B9%E6%8B%89%E6%BB%A1",
-    "heat": "113万"
-   },
-   {
-    "t": "杨瀚森砍鲨战术",
-    "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E7%80%9A%E6%A3%AE%E7%A0%8D%E9%B2%A8%E6%88%98%E6%9C%AF",
-    "heat": "83万"
-   },
-   {
-    "t": "数说APEC中国年经贸成果",
-    "url": "https://s.weibo.com/weibo?q=%E6%95%B0%E8%AF%B4APEC%E4%B8%AD%E5%9B%BD%E5%B9%B4%E7%BB%8F%E8%B4%B8%E6%88%90%E6%9E%9C",
-    "heat": "66万"
-   },
-   {
-    "t": "信小呆中奖后抑郁了",
-    "url": "https://s.weibo.com/weibo?q=%E4%BF%A1%E5%B0%8F%E5%91%86%E4%B8%AD%E5%A5%96%E5%90%8E%E6%8A%91%E9%83%81%E4%BA%86",
-    "heat": "62万"
-   },
-   {
-    "t": "从100斤瘦到80斤堪比整容",
-    "url": "https://s.weibo.com/weibo?q=%E4%BB%8E100%E6%96%A4%E7%98%A6%E5%88%B080%E6%96%A4%E5%A0%AA%E6%AF%94%E6%95%B4%E5%AE%B9",
-    "heat": "61万"
-   },
-   {
-    "t": "虞书欣新综艺开机",
-    "url": "https://s.weibo.com/weibo?q=%E8%99%9E%E4%B9%A6%E6%AC%A3%E6%96%B0%E7%BB%BC%E8%89%BA%E5%BC%80%E6%9C%BA",
-    "heat": "50万"
-   },
-   {
-    "t": "经常朝左边睡觉对心脏的影响",
-    "url": "https://s.weibo.com/weibo?q=%E7%BB%8F%E5%B8%B8%E6%9C%9D%E5%B7%A6%E8%BE%B9%E7%9D%A1%E8%A7%89%E5%AF%B9%E5%BF%83%E8%84%8F%E7%9A%84%E5%BD%B1%E5%93%8D",
-    "heat": "39万"
-   },
-   {
-    "t": "于东来奖励员工310辆坦克700",
-    "url": "https://s.weibo.com/weibo?q=%E4%BA%8E%E4%B8%9C%E6%9D%A5%E5%A5%96%E5%8A%B1%E5%91%98%E5%B7%A5310%E8%BE%86%E5%9D%A6%E5%85%8B700",
-    "heat": "31万"
-   },
-   {
-    "t": "10月货物进出口同比增长31.2%",
-    "url": "https://s.weibo.com/weibo?q=10%E6%9C%88%E8%B4%A7%E7%89%A9%E8%BF%9B%E5%87%BA%E5%8F%A3%E5%90%8C%E6%AF%94%E5%A2%9E%E9%95%BF31.2%25",
-    "heat": "30万"
-   },
-   {
-    "t": "声生不息2定档",
-    "url": "https://s.weibo.com/weibo?q=%E5%A3%B0%E7%94%9F%E4%B8%8D%E6%81%AF2%E5%AE%9A%E6%A1%A3",
-    "heat": "30万"
-   }
-  ],
-  "B站": [
-   {
-    "t": "外交部谈中俄美元首会晤",
-    "url": "https://search.bilibili.com/all?keyword=%E5%A4%96%E4%BA%A4%E9%83%A8%E8%B0%88%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4",
-    "heat": ""
-   },
-   {
-    "t": "APEC紫藏着中国红和深圳蓝",
-    "url": "https://search.bilibili.com/all?keyword=APEC%E7%B4%AB%E8%97%8F%E7%9D%80%E4%B8%AD%E5%9B%BD%E7%BA%A2%E5%92%8C%E6%B7%B1%E5%9C%B3%E8%93%9D",
-    "heat": ""
-   },
-   {
-    "t": "印尼驻华大使用中文歌祝福APEC",
-    "url": "https://search.bilibili.com/all?keyword=%E5%8D%B0%E5%B0%BC%E9%A9%BB%E5%8D%8E%E5%A4%A7%E4%BD%BF%E7%94%A8%E4%B8%AD%E6%96%87%E6%AD%8C%E7%A5%9D%E7%A6%8FAPEC",
-    "heat": ""
-   },
-   {
-    "t": "BLG现场观战76人vs篮网",
-    "url": "https://search.bilibili.com/all?keyword=BLG%E7%8E%B0%E5%9C%BA%E8%A7%82%E6%88%9876%E4%BA%BAvs%E7%AF%AE%E7%BD%91",
-    "heat": ""
-   },
-   {
-    "t": "别人看骑行我在吴磊小课堂听课",
-    "url": "https://search.bilibili.com/all?keyword=%E5%88%AB%E4%BA%BA%E7%9C%8B%E9%AA%91%E8%A1%8C%E6%88%91%E5%9C%A8%E5%90%B4%E7%A3%8A%E5%B0%8F%E8%AF%BE%E5%A0%82%E5%90%AC%E8%AF%BE",
-    "heat": ""
-   },
-   {
-    "t": "Bin冠军皮肤格温票数反超武器",
-    "url": "https://search.bilibili.com/all?keyword=Bin%E5%86%A0%E5%86%9B%E7%9A%AE%E8%82%A4%E6%A0%BC%E6%B8%A9%E7%A5%A8%E6%95%B0%E5%8F%8D%E8%B6%85%E6%AD%A6%E5%99%A8",
-    "heat": ""
-   },
-   {
-    "t": "BLG成员获赠专属篮网球衣",
-    "url": "https://search.bilibili.com/all?keyword=BLG%E6%88%90%E5%91%98%E8%8E%B7%E8%B5%A0%E4%B8%93%E5%B1%9E%E7%AF%AE%E7%BD%91%E7%90%83%E8%A1%A3",
-    "heat": ""
-   },
-   {
-    "t": "GEN官宣Canyon与Kiin离队",
-    "url": "https://search.bilibili.com/all?keyword=GEN%E5%AE%98%E5%AE%A3Canyon%E4%B8%8EKiin%E7%A6%BB%E9%98%9F",
-    "heat": ""
-   },
-   {
-    "t": "后会友期真人秀剧本边界在哪",
-    "url": "https://search.bilibili.com/all?keyword=%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E7%9C%9F%E4%BA%BA%E7%A7%80%E5%89%A7%E6%9C%AC%E8%BE%B9%E7%95%8C%E5%9C%A8%E5%93%AA",
-    "heat": ""
-   },
-   {
-    "t": "看深圳APEC藏着哪些巧思",
-    "url": "https://search.bilibili.com/all?keyword=%E7%9C%8B%E6%B7%B1%E5%9C%B3APEC%E8%97%8F%E7%9D%80%E5%93%AA%E4%BA%9B%E5%B7%A7%E6%80%9D",
-    "heat": ""
-   }
-  ],
-  "百度": [
-   {
-    "t": "习近平主席引航亚太开放合作",
-    "url": "https://m.baidu.com/s?word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%BB%E5%B8%AD%E5%BC%95%E8%88%AA%E4%BA%9A%E5%A4%AA%E5%BC%80%E6%94%BE%E5%90%88%E4%BD%9C&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "俄美运输机已率先抵达深圳",
-    "url": "https://m.baidu.com/s?word=%E4%BF%84%E7%BE%8E%E8%BF%90%E8%BE%93%E6%9C%BA%E5%B7%B2%E7%8E%87%E5%85%88%E6%8A%B5%E8%BE%BE%E6%B7%B1%E5%9C%B3&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "APEC来了 华强北生意爆了",
-    "url": "https://m.baidu.com/s?word=APEC%E6%9D%A5%E4%BA%86+%E5%8D%8E%E5%BC%BA%E5%8C%97%E7%94%9F%E6%84%8F%E7%88%86%E4%BA%86&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "APEC“中国年”",
-    "url": "https://m.baidu.com/s?word=APEC%E2%80%9C%E4%B8%AD%E5%9B%BD%E5%B9%B4%E2%80%9D&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "特朗普将成首位到访深圳的在任美总统",
-    "url": "https://m.baidu.com/s?word=%E7%89%B9%E6%9C%97%E6%99%AE%E5%B0%86%E6%88%90%E9%A6%96%E4%BD%8D%E5%88%B0%E8%AE%BF%E6%B7%B1%E5%9C%B3%E7%9A%84%E5%9C%A8%E4%BB%BB%E7%BE%8E%E6%80%BB%E7%BB%9F&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "高达近800℃！被窝被它暖“没”了",
-    "url": "https://m.baidu.com/s?word=%E9%AB%98%E8%BE%BE%E8%BF%91800%E2%84%83%EF%BC%81%E8%A2%AB%E7%AA%9D%E8%A2%AB%E5%AE%83%E6%9A%96%E2%80%9C%E6%B2%A1%E2%80%9D%E4%BA%86&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "“公安局的 怎么会要钱呢！”",
-    "url": "https://m.baidu.com/s?word=%E2%80%9C%E5%85%AC%E5%AE%89%E5%B1%80%E7%9A%84+%E6%80%8E%E4%B9%88%E4%BC%9A%E8%A6%81%E9%92%B1%E5%91%A2%EF%BC%81%E2%80%9D&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "打工者的拖鞋梳子都成了展品",
-    "url": "https://m.baidu.com/s?word=%E6%89%93%E5%B7%A5%E8%80%85%E7%9A%84%E6%8B%96%E9%9E%8B%E6%A2%B3%E5%AD%90%E9%83%BD%E6%88%90%E4%BA%86%E5%B1%95%E5%93%81&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "梅德韦杰夫取得总决赛开门红",
-    "url": "https://m.baidu.com/s?word=%E6%A2%85%E5%BE%B7%E9%9F%A6%E6%9D%B0%E5%A4%AB%E5%8F%96%E5%BE%97%E6%80%BB%E5%86%B3%E8%B5%9B%E5%BC%80%E9%97%A8%E7%BA%A2&sa=fyb_news",
-    "heat": ""
-   },
-   {
-    "t": "用24小时 看深圳的APEC日常故事",
-    "url": "https://m.baidu.com/s?word=%E7%94%A824%E5%B0%8F%E6%97%B6+%E7%9C%8B%E6%B7%B1%E5%9C%B3%E7%9A%84APEC%E6%97%A5%E5%B8%B8%E6%95%85%E4%BA%8B&sa=fyb_news",
-    "heat": ""
-   }
-  ]
- }
+ ]
 };
